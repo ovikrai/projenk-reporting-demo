@@ -1,0 +1,568 @@
+{
+  "raw_rows": 832,
+  "accepted_rows": 805,
+  "rejected_rows": 27,
+  "normalized_rows": 58,
+  "acceptance_rate": 96.75,
+  "source_sha256": "58e8c0c41b32881a5c33c1611530d36718716f13bae17708ec462249ef3d5b71",
+  "reasons": {
+    "duplicate order_id (first valid row retained)": 9,
+    "day is out of range for month": 3,
+    "quantity must be an integer from 1 to 10000": 3,
+    "invalid numeric value": 3,
+    "invalid category": 3,
+    "discount_pct must be between 0 and 100": 3,
+    "invalid status": 3
+  },
+  "rejected": [
+    {
+      "line": 23,
+      "order_id": "PJ-07-0021",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 89,
+      "order_id": "PJ-07-0086",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 155,
+      "order_id": "PJ-07-0151",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 235,
+      "order_id": "BAD-7-0",
+      "reason": "day is out of range for month"
+    },
+    {
+      "line": 236,
+      "order_id": "BAD-7-1",
+      "reason": "quantity must be an integer from 1 to 10000"
+    },
+    {
+      "line": 237,
+      "order_id": "BAD-7-2",
+      "reason": "invalid numeric value"
+    },
+    {
+      "line": 238,
+      "order_id": "BAD-7-3",
+      "reason": "invalid category"
+    },
+    {
+      "line": 239,
+      "order_id": "BAD-7-4",
+      "reason": "discount_pct must be between 0 and 100"
+    },
+    {
+      "line": 240,
+      "order_id": "BAD-7-5",
+      "reason": "invalid status"
+    },
+    {
+      "line": 262,
+      "order_id": "PJ-08-0021",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 328,
+      "order_id": "PJ-08-0086",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 394,
+      "order_id": "PJ-08-0151",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 509,
+      "order_id": "BAD-8-0",
+      "reason": "day is out of range for month"
+    },
+    {
+      "line": 510,
+      "order_id": "BAD-8-1",
+      "reason": "quantity must be an integer from 1 to 10000"
+    },
+    {
+      "line": 511,
+      "order_id": "BAD-8-2",
+      "reason": "invalid numeric value"
+    },
+    {
+      "line": 512,
+      "order_id": "BAD-8-3",
+      "reason": "invalid category"
+    },
+    {
+      "line": 513,
+      "order_id": "BAD-8-4",
+      "reason": "discount_pct must be between 0 and 100"
+    },
+    {
+      "line": 514,
+      "order_id": "BAD-8-5",
+      "reason": "invalid status"
+    },
+    {
+      "line": 536,
+      "order_id": "PJ-09-0021",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 602,
+      "order_id": "PJ-09-0086",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 668,
+      "order_id": "PJ-09-0151",
+      "reason": "duplicate order_id (first valid row retained)"
+    },
+    {
+      "line": 828,
+      "order_id": "BAD-9-0",
+      "reason": "day is out of range for month"
+    },
+    {
+      "line": 829,
+      "order_id": "BAD-9-1",
+      "reason": "quantity must be an integer from 1 to 10000"
+    },
+    {
+      "line": 830,
+      "order_id": "BAD-9-2",
+      "reason": "invalid numeric value"
+    },
+    {
+      "line": 831,
+      "order_id": "BAD-9-3",
+      "reason": "invalid category"
+    },
+    {
+      "line": 832,
+      "order_id": "BAD-9-4",
+      "reason": "discount_pct must be between 0 and 100"
+    },
+    {
+      "line": 833,
+      "order_id": "BAD-9-5",
+      "reason": "invalid status"
+    }
+  ],
+  "changes": [
+    {
+      "line": 2,
+      "order_id": "PJ-07-0001",
+      "fields": [
+        "channel",
+        "unit_price",
+        "status"
+      ]
+    },
+    {
+      "line": 34,
+      "order_id": "PJ-07-0032",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 46,
+      "order_id": "PJ-07-0044",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 60,
+      "order_id": "PJ-07-0058",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 65,
+      "order_id": "PJ-07-0063",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 90,
+      "order_id": "PJ-07-0087",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 97,
+      "order_id": "PJ-07-0094",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 118,
+      "order_id": "PJ-07-0115",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 128,
+      "order_id": "PJ-07-0125",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 133,
+      "order_id": "PJ-07-0130",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 160,
+      "order_id": "PJ-07-0156",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 176,
+      "order_id": "PJ-07-0172",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 177,
+      "order_id": "PJ-07-0173",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 191,
+      "order_id": "PJ-07-0187",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 220,
+      "order_id": "PJ-07-0216",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 222,
+      "order_id": "PJ-07-0218",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 233,
+      "order_id": "PJ-07-0229",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 241,
+      "order_id": "PJ-08-0001",
+      "fields": [
+        "channel",
+        "unit_price",
+        "status"
+      ]
+    },
+    {
+      "line": 273,
+      "order_id": "PJ-08-0032",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 285,
+      "order_id": "PJ-08-0044",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 299,
+      "order_id": "PJ-08-0058",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 304,
+      "order_id": "PJ-08-0063",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 329,
+      "order_id": "PJ-08-0087",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 336,
+      "order_id": "PJ-08-0094",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 357,
+      "order_id": "PJ-08-0115",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 367,
+      "order_id": "PJ-08-0125",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 372,
+      "order_id": "PJ-08-0130",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 399,
+      "order_id": "PJ-08-0156",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 415,
+      "order_id": "PJ-08-0172",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 416,
+      "order_id": "PJ-08-0173",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 430,
+      "order_id": "PJ-08-0187",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 459,
+      "order_id": "PJ-08-0216",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 461,
+      "order_id": "PJ-08-0218",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 472,
+      "order_id": "PJ-08-0229",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 492,
+      "order_id": "PJ-08-0249",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 502,
+      "order_id": "PJ-08-0259",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 515,
+      "order_id": "PJ-09-0001",
+      "fields": [
+        "channel",
+        "unit_price",
+        "status"
+      ]
+    },
+    {
+      "line": 547,
+      "order_id": "PJ-09-0032",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 559,
+      "order_id": "PJ-09-0044",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 573,
+      "order_id": "PJ-09-0058",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 578,
+      "order_id": "PJ-09-0063",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 603,
+      "order_id": "PJ-09-0087",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 610,
+      "order_id": "PJ-09-0094",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 631,
+      "order_id": "PJ-09-0115",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 641,
+      "order_id": "PJ-09-0125",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 646,
+      "order_id": "PJ-09-0130",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 673,
+      "order_id": "PJ-09-0156",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 689,
+      "order_id": "PJ-09-0172",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 690,
+      "order_id": "PJ-09-0173",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 704,
+      "order_id": "PJ-09-0187",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 733,
+      "order_id": "PJ-09-0216",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 735,
+      "order_id": "PJ-09-0218",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 746,
+      "order_id": "PJ-09-0229",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 766,
+      "order_id": "PJ-09-0249",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 776,
+      "order_id": "PJ-09-0259",
+      "fields": [
+        "status"
+      ]
+    },
+    {
+      "line": 797,
+      "order_id": "PJ-09-0280",
+      "fields": [
+        "channel"
+      ]
+    },
+    {
+      "line": 803,
+      "order_id": "PJ-09-0286",
+      "fields": [
+        "unit_price"
+      ]
+    },
+    {
+      "line": 819,
+      "order_id": "PJ-09-0302",
+      "fields": [
+        "status"
+      ]
+    }
+  ]
+}

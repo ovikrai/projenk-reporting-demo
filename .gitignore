@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+credentials.json
+token.json
+google_tasks_token.json
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+output/
+.coverage
+*.db
+node_modules/
+playwright-report/
+test-results/

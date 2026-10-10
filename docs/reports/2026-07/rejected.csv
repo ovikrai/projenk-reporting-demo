@@ -1,0 +1,28 @@
+line,order_id,reason
+23,PJ-07-0021,duplicate order_id (first valid row retained)
+89,PJ-07-0086,duplicate order_id (first valid row retained)
+155,PJ-07-0151,duplicate order_id (first valid row retained)
+235,BAD-7-0,day is out of range for month
+236,BAD-7-1,quantity must be an integer from 1 to 10000
+237,BAD-7-2,invalid numeric value
+238,BAD-7-3,invalid category
+239,BAD-7-4,discount_pct must be between 0 and 100
+240,BAD-7-5,invalid status
+262,PJ-08-0021,duplicate order_id (first valid row retained)
+328,PJ-08-0086,duplicate order_id (first valid row retained)
+394,PJ-08-0151,duplicate order_id (first valid row retained)
+509,BAD-8-0,day is out of range for month
+510,BAD-8-1,quantity must be an integer from 1 to 10000
+511,BAD-8-2,invalid numeric value
+512,BAD-8-3,invalid category
+513,BAD-8-4,discount_pct must be between 0 and 100
+514,BAD-8-5,invalid status
+536,PJ-09-0021,duplicate order_id (first valid row retained)
+602,PJ-09-0086,duplicate order_id (first valid row retained)
+668,PJ-09-0151,duplicate order_id (first valid row retained)
+828,BAD-9-0,day is out of range for month
+829,BAD-9-1,quantity must be an integer from 1 to 10000
+830,BAD-9-2,invalid numeric value
+831,BAD-9-3,invalid category
+832,BAD-9-4,discount_pct must be between 0 and 100
+833,BAD-9-5,invalid status

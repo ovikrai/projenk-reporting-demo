@@ -1,0 +1,806 @@
+order_id,order_date,category,region,channel,quantity,unit_price,unit_cost,discount_pct,status
+PJ-07-0001,2026-07-01,Apparel,East,Online,1,64.00,24.00,15,completed
+PJ-07-0002,2026-07-19,Electronics,West,Online,1,179.00,108.00,10,completed
+PJ-07-0003,2026-07-23,Electronics,West,Online,2,179.00,108.00,0,completed
+PJ-07-0004,2026-07-05,Home & Living,South,Wholesale,1,89.00,36.00,5,completed
+PJ-07-0005,2026-07-20,Apparel,East,Retail,2,64.00,24.00,5,completed
+PJ-07-0006,2026-07-21,Home & Living,East,Online,2,89.00,36.00,15,completed
+PJ-07-0007,2026-07-03,Home & Living,South,Retail,1,80.10,36.00,15,completed
+PJ-07-0008,2026-07-12,Home & Living,South,Retail,2,89.00,36.00,10,completed
+PJ-07-0009,2026-07-08,Electronics,South,Online,1,179.00,108.00,15,completed
+PJ-07-0010,2026-07-02,Apparel,South,Retail,3,57.60,24.00,0,completed
+PJ-07-0011,2026-07-19,Accessories,East,Online,1,35.10,12.00,0,completed
+PJ-07-0012,2026-07-18,Home & Living,East,Retail,1,80.10,36.00,0,completed
+PJ-07-0013,2026-07-17,Accessories,West,Online,1,39.00,12.00,0,completed
+PJ-07-0014,2026-07-14,Apparel,North,Online,2,57.60,24.00,10,completed
+PJ-07-0015,2026-07-31,Electronics,North,Retail,1,205.85,108.00,15,completed
+PJ-07-0016,2026-07-06,Home & Living,West,Online,2,102.35,36.00,10,completed
+PJ-07-0017,2026-07-04,Electronics,East,Retail,2,179.00,108.00,0,completed
+PJ-07-0018,2026-07-31,Home & Living,North,Retail,1,89.00,36.00,0,completed
+PJ-07-0019,2026-07-10,Apparel,South,Online,3,64.00,24.00,0,completed
+PJ-07-0020,2026-07-25,Apparel,South,Online,1,64.00,24.00,0,completed
+PJ-07-0021,2026-07-31,Electronics,South,Wholesale,2,179.00,108.00,15,completed
+PJ-07-0022,2026-07-21,Accessories,East,Online,2,39.00,12.00,0,completed
+PJ-07-0023,2026-07-19,Home & Living,South,Retail,1,89.00,36.00,0,completed
+PJ-07-0024,2026-07-11,Home & Living,North,Online,1,80.10,36.00,0,completed
+PJ-07-0025,2026-07-29,Apparel,West,Online,1,57.60,24.00,0,completed
+PJ-07-0026,2026-07-12,Apparel,West,Online,3,64.00,24.00,15,completed
+PJ-07-0027,2026-07-02,Apparel,West,Retail,3,64.00,24.00,0,completed
+PJ-07-0028,2026-07-05,Electronics,West,Online,1,179.00,108.00,5,completed
+PJ-07-0029,2026-07-04,Apparel,North,Retail,2,64.00,24.00,0,refunded
+PJ-07-0030,2026-07-06,Apparel,West,Online,1,57.60,24.00,0,completed
+PJ-07-0031,2026-07-13,Home & Living,East,Wholesale,3,102.35,36.00,5,completed
+PJ-07-0032,2026-07-26,Apparel,West,Online,1,64.00,24.00,10,completed
+PJ-07-0033,2026-07-11,Home & Living,North,Online,1,89.00,36.00,0,refunded
+PJ-07-0034,2026-07-06,Home & Living,North,Retail,2,89.00,36.00,5,completed
+PJ-07-0035,2026-07-08,Accessories,North,Retail,1,44.85,12.00,0,completed
+PJ-07-0036,2026-07-08,Apparel,East,Online,2,73.60,24.00,5,completed
+PJ-07-0037,2026-07-03,Apparel,North,Online,4,64.00,24.00,0,completed
+PJ-07-0038,2026-07-05,Electronics,East,Wholesale,3,205.85,108.00,0,completed
+PJ-07-0039,2026-07-23,Apparel,East,Retail,4,64.00,24.00,15,completed
+PJ-07-0040,2026-07-22,Home & Living,North,Wholesale,1,89.00,36.00,0,completed
+PJ-07-0041,2026-07-10,Home & Living,South,Retail,1,102.35,36.00,10,completed
+PJ-07-0042,2026-07-28,Accessories,North,Online,1,44.85,12.00,0,completed
+PJ-07-0043,2026-07-21,Apparel,East,Online,1,57.60,24.00,10,completed
+PJ-07-0044,2026-07-29,Home & Living,South,Online,3,89.00,36.00,5,completed
+PJ-07-0045,2026-07-29,Home & Living,North,Wholesale,1,89.00,36.00,15,completed
+PJ-07-0046,2026-07-29,Apparel,West,Wholesale,2,64.00,24.00,0,cancelled
+PJ-07-0047,2026-07-29,Apparel,West,Online,2,73.60,24.00,5,completed
+PJ-07-0048,2026-07-26,Apparel,South,Online,3,64.00,24.00,5,completed
+PJ-07-0049,2026-07-08,Apparel,South,Retail,1,73.60,24.00,0,completed
+PJ-07-0050,2026-07-13,Apparel,East,Online,1,73.60,24.00,0,completed
+PJ-07-0051,2026-07-27,Electronics,East,Wholesale,1,205.85,108.00,0,completed
+PJ-07-0052,2026-07-02,Accessories,North,Retail,1,44.85,12.00,5,completed
+PJ-07-0053,2026-07-13,Electronics,South,Online,2,179.00,108.00,10,refunded
+PJ-07-0054,2026-07-24,Electronics,South,Online,1,205.85,108.00,10,completed
+PJ-07-0055,2026-07-24,Apparel,East,Online,2,73.60,24.00,5,completed
+PJ-07-0056,2026-07-07,Electronics,West,Retail,1,179.00,108.00,10,completed
+PJ-07-0057,2026-07-27,Electronics,North,Online,1,205.85,108.00,5,completed
+PJ-07-0058,2026-07-17,Apparel,West,Retail,4,64.00,24.00,15,completed
+PJ-07-0059,2026-07-21,Electronics,East,Online,4,179.00,108.00,15,completed
+PJ-07-0060,2026-07-05,Apparel,North,Online,4,64.00,24.00,5,completed
+PJ-07-0061,2026-07-07,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-07-0062,2026-07-26,Home & Living,West,Online,1,89.00,36.00,5,completed
+PJ-07-0063,2026-07-17,Electronics,East,Wholesale,3,161.10,108.00,10,completed
+PJ-07-0064,2026-07-28,Home & Living,West,Online,2,102.35,36.00,10,completed
+PJ-07-0065,2026-07-15,Home & Living,North,Retail,1,102.35,36.00,0,completed
+PJ-07-0066,2026-07-05,Home & Living,South,Online,1,89.00,36.00,0,completed
+PJ-07-0067,2026-07-15,Home & Living,West,Online,3,80.10,36.00,10,refunded
+PJ-07-0068,2026-07-29,Home & Living,West,Online,3,102.35,36.00,5,completed
+PJ-07-0069,2026-07-14,Accessories,South,Online,1,35.10,12.00,0,completed
+PJ-07-0070,2026-07-26,Apparel,West,Retail,3,64.00,24.00,10,completed
+PJ-07-0071,2026-07-19,Accessories,North,Online,1,35.10,12.00,0,completed
+PJ-07-0072,2026-07-07,Electronics,West,Online,2,161.10,108.00,0,completed
+PJ-07-0073,2026-07-09,Apparel,North,Online,2,64.00,24.00,0,completed
+PJ-07-0074,2026-07-31,Home & Living,North,Retail,3,89.00,36.00,0,completed
+PJ-07-0075,2026-07-16,Home & Living,North,Online,1,102.35,36.00,0,completed
+PJ-07-0076,2026-07-24,Electronics,North,Retail,1,205.85,108.00,0,completed
+PJ-07-0077,2026-07-19,Accessories,West,Online,2,39.00,12.00,10,completed
+PJ-07-0078,2026-07-04,Electronics,East,Retail,2,179.00,108.00,10,completed
+PJ-07-0079,2026-07-14,Home & Living,East,Online,2,89.00,36.00,5,completed
+PJ-07-0080,2026-07-31,Home & Living,East,Retail,3,89.00,36.00,5,completed
+PJ-07-0081,2026-07-21,Electronics,East,Retail,3,161.10,108.00,5,completed
+PJ-07-0082,2026-07-09,Apparel,East,Retail,3,64.00,24.00,0,completed
+PJ-07-0083,2026-07-15,Home & Living,West,Online,1,102.35,36.00,0,completed
+PJ-07-0084,2026-07-09,Electronics,East,Online,2,205.85,108.00,10,completed
+PJ-07-0085,2026-07-03,Accessories,South,Retail,1,39.00,12.00,15,completed
+PJ-07-0086,2026-07-15,Apparel,North,Online,1,64.00,24.00,0,completed
+PJ-07-0087,2026-07-18,Electronics,East,Online,2,205.85,108.00,0,completed
+PJ-07-0088,2026-07-09,Home & Living,South,Online,1,89.00,36.00,15,completed
+PJ-07-0089,2026-07-06,Apparel,South,Online,1,73.60,24.00,0,completed
+PJ-07-0090,2026-07-12,Home & Living,South,Online,2,89.00,36.00,0,completed
+PJ-07-0091,2026-07-10,Home & Living,South,Retail,2,89.00,36.00,0,completed
+PJ-07-0092,2026-07-15,Electronics,East,Online,1,161.10,108.00,0,completed
+PJ-07-0093,2026-07-03,Electronics,North,Online,3,205.85,108.00,0,cancelled
+PJ-07-0094,2026-07-25,Home & Living,West,Retail,3,89.00,36.00,10,completed
+PJ-07-0095,2026-07-10,Accessories,West,Online,2,39.00,12.00,0,completed
+PJ-07-0096,2026-07-03,Home & Living,South,Online,2,89.00,36.00,0,completed
+PJ-07-0097,2026-07-16,Apparel,East,Online,1,73.60,24.00,15,completed
+PJ-07-0098,2026-07-08,Home & Living,East,Retail,2,89.00,36.00,5,completed
+PJ-07-0099,2026-07-05,Home & Living,East,Retail,1,89.00,36.00,0,completed
+PJ-07-0100,2026-07-30,Apparel,East,Online,1,73.60,24.00,15,completed
+PJ-07-0101,2026-07-18,Home & Living,West,Online,2,80.10,36.00,15,completed
+PJ-07-0102,2026-07-03,Home & Living,South,Wholesale,3,89.00,36.00,15,completed
+PJ-07-0103,2026-07-25,Electronics,South,Online,2,205.85,108.00,0,cancelled
+PJ-07-0104,2026-07-27,Electronics,West,Wholesale,1,161.10,108.00,0,completed
+PJ-07-0105,2026-07-06,Home & Living,East,Online,1,80.10,36.00,10,completed
+PJ-07-0106,2026-07-09,Home & Living,East,Online,2,89.00,36.00,15,completed
+PJ-07-0107,2026-07-02,Electronics,South,Online,2,161.10,108.00,15,completed
+PJ-07-0108,2026-07-09,Home & Living,South,Wholesale,1,80.10,36.00,0,completed
+PJ-07-0109,2026-07-26,Apparel,South,Retail,1,64.00,24.00,10,completed
+PJ-07-0110,2026-07-27,Home & Living,North,Online,1,89.00,36.00,5,refunded
+PJ-07-0111,2026-07-23,Home & Living,East,Online,1,80.10,36.00,0,completed
+PJ-07-0112,2026-07-07,Home & Living,South,Retail,1,80.10,36.00,0,refunded
+PJ-07-0113,2026-07-27,Electronics,North,Online,1,161.10,108.00,0,completed
+PJ-07-0114,2026-07-11,Electronics,West,Online,1,179.00,108.00,15,completed
+PJ-07-0115,2026-07-28,Electronics,West,Online,2,161.10,108.00,5,cancelled
+PJ-07-0116,2026-07-21,Apparel,South,Online,1,73.60,24.00,0,completed
+PJ-07-0117,2026-07-17,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-07-0118,2026-07-11,Accessories,West,Retail,3,35.10,12.00,0,completed
+PJ-07-0119,2026-07-16,Accessories,North,Retail,1,44.85,12.00,0,completed
+PJ-07-0120,2026-07-04,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-07-0121,2026-07-12,Home & Living,East,Online,1,80.10,36.00,10,completed
+PJ-07-0122,2026-07-06,Home & Living,North,Retail,1,89.00,36.00,5,refunded
+PJ-07-0123,2026-07-15,Home & Living,East,Online,2,80.10,36.00,0,completed
+PJ-07-0124,2026-07-15,Home & Living,East,Wholesale,1,80.10,36.00,15,completed
+PJ-07-0125,2026-07-07,Apparel,West,Retail,1,57.60,24.00,10,completed
+PJ-07-0126,2026-07-23,Home & Living,East,Online,3,80.10,36.00,0,completed
+PJ-07-0127,2026-07-25,Apparel,North,Wholesale,2,73.60,24.00,0,completed
+PJ-07-0128,2026-07-21,Electronics,South,Retail,2,179.00,108.00,15,completed
+PJ-07-0129,2026-07-02,Electronics,East,Retail,1,205.85,108.00,15,completed
+PJ-07-0130,2026-07-11,Accessories,West,Online,1,44.85,12.00,10,completed
+PJ-07-0131,2026-07-06,Home & Living,East,Wholesale,3,102.35,36.00,15,completed
+PJ-07-0132,2026-07-15,Apparel,North,Online,4,57.60,24.00,10,completed
+PJ-07-0133,2026-07-01,Apparel,East,Online,1,73.60,24.00,10,completed
+PJ-07-0134,2026-07-12,Apparel,North,Retail,1,73.60,24.00,10,completed
+PJ-07-0135,2026-07-27,Home & Living,West,Wholesale,1,80.10,36.00,0,completed
+PJ-07-0136,2026-07-10,Accessories,West,Online,1,39.00,12.00,5,completed
+PJ-07-0137,2026-07-24,Apparel,West,Retail,2,57.60,24.00,15,completed
+PJ-07-0138,2026-07-14,Electronics,East,Online,1,161.10,108.00,5,refunded
+PJ-07-0139,2026-07-04,Apparel,East,Online,4,73.60,24.00,0,completed
+PJ-07-0140,2026-07-04,Home & Living,West,Online,1,89.00,36.00,0,completed
+PJ-07-0141,2026-07-05,Home & Living,South,Online,2,89.00,36.00,10,completed
+PJ-07-0142,2026-07-11,Apparel,South,Retail,2,73.60,24.00,0,cancelled
+PJ-07-0143,2026-07-26,Electronics,South,Online,3,179.00,108.00,0,completed
+PJ-07-0144,2026-07-19,Apparel,East,Online,1,64.00,24.00,15,completed
+PJ-07-0145,2026-07-03,Home & Living,West,Online,1,89.00,36.00,5,completed
+PJ-07-0146,2026-07-02,Accessories,East,Online,4,39.00,12.00,5,completed
+PJ-07-0147,2026-07-04,Electronics,West,Retail,1,179.00,108.00,0,completed
+PJ-07-0148,2026-07-09,Home & Living,East,Online,2,102.35,36.00,5,completed
+PJ-07-0149,2026-07-26,Electronics,North,Retail,2,179.00,108.00,5,completed
+PJ-07-0150,2026-07-11,Home & Living,West,Online,2,102.35,36.00,5,completed
+PJ-07-0151,2026-07-31,Home & Living,South,Retail,1,89.00,36.00,0,completed
+PJ-07-0152,2026-07-24,Home & Living,East,Retail,2,102.35,36.00,15,completed
+PJ-07-0153,2026-07-22,Electronics,West,Retail,2,205.85,108.00,10,completed
+PJ-07-0154,2026-07-17,Home & Living,South,Online,1,89.00,36.00,0,completed
+PJ-07-0155,2026-07-25,Electronics,East,Online,3,179.00,108.00,10,refunded
+PJ-07-0156,2026-07-09,Apparel,North,Online,2,73.60,24.00,0,completed
+PJ-07-0157,2026-07-05,Home & Living,West,Online,2,89.00,36.00,0,completed
+PJ-07-0158,2026-07-14,Home & Living,West,Online,1,102.35,36.00,10,completed
+PJ-07-0159,2026-07-05,Accessories,South,Retail,1,39.00,12.00,0,completed
+PJ-07-0160,2026-07-20,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-07-0161,2026-07-22,Home & Living,West,Online,1,89.00,36.00,5,cancelled
+PJ-07-0162,2026-07-07,Home & Living,East,Wholesale,2,102.35,36.00,0,completed
+PJ-07-0163,2026-07-24,Home & Living,West,Online,1,89.00,36.00,10,completed
+PJ-07-0164,2026-07-12,Apparel,North,Online,2,57.60,24.00,0,completed
+PJ-07-0165,2026-07-11,Home & Living,West,Online,2,80.10,36.00,0,completed
+PJ-07-0166,2026-07-11,Home & Living,South,Retail,2,102.35,36.00,0,completed
+PJ-07-0167,2026-07-14,Home & Living,West,Online,1,102.35,36.00,15,completed
+PJ-07-0168,2026-07-06,Home & Living,North,Online,1,89.00,36.00,0,completed
+PJ-07-0169,2026-07-21,Accessories,South,Online,1,39.00,12.00,0,completed
+PJ-07-0170,2026-07-21,Apparel,North,Online,2,57.60,24.00,5,completed
+PJ-07-0171,2026-07-15,Apparel,East,Retail,2,64.00,24.00,5,completed
+PJ-07-0172,2026-07-10,Electronics,East,Retail,1,179.00,108.00,0,completed
+PJ-07-0173,2026-07-12,Home & Living,East,Online,3,89.00,36.00,10,completed
+PJ-07-0174,2026-07-19,Electronics,North,Online,3,179.00,108.00,0,completed
+PJ-07-0175,2026-07-31,Electronics,North,Online,3,205.85,108.00,15,completed
+PJ-07-0176,2026-07-02,Apparel,South,Retail,4,64.00,24.00,0,completed
+PJ-07-0177,2026-07-14,Home & Living,East,Retail,1,102.35,36.00,0,completed
+PJ-07-0178,2026-07-13,Electronics,East,Online,3,179.00,108.00,0,completed
+PJ-07-0179,2026-07-30,Apparel,East,Online,2,57.60,24.00,0,completed
+PJ-07-0180,2026-07-10,Accessories,West,Retail,1,39.00,12.00,15,completed
+PJ-07-0181,2026-07-22,Accessories,North,Retail,1,44.85,12.00,0,completed
+PJ-07-0182,2026-07-07,Home & Living,East,Wholesale,1,89.00,36.00,0,completed
+PJ-07-0183,2026-07-26,Home & Living,North,Online,2,89.00,36.00,15,completed
+PJ-07-0184,2026-07-05,Apparel,West,Online,1,64.00,24.00,15,completed
+PJ-07-0185,2026-07-22,Electronics,South,Wholesale,2,161.10,108.00,0,completed
+PJ-07-0186,2026-07-26,Home & Living,West,Wholesale,1,80.10,36.00,5,completed
+PJ-07-0187,2026-07-17,Apparel,West,Wholesale,3,64.00,24.00,0,completed
+PJ-07-0188,2026-07-12,Electronics,North,Retail,2,179.00,108.00,0,completed
+PJ-07-0189,2026-07-15,Home & Living,South,Retail,1,89.00,36.00,5,completed
+PJ-07-0190,2026-07-14,Accessories,North,Online,1,35.10,12.00,0,completed
+PJ-07-0191,2026-07-30,Home & Living,North,Retail,2,89.00,36.00,0,completed
+PJ-07-0192,2026-07-16,Accessories,South,Retail,1,39.00,12.00,0,completed
+PJ-07-0193,2026-07-05,Home & Living,West,Online,1,102.35,36.00,0,completed
+PJ-07-0194,2026-07-26,Electronics,West,Online,3,161.10,108.00,10,completed
+PJ-07-0195,2026-07-19,Apparel,South,Retail,1,64.00,24.00,10,completed
+PJ-07-0196,2026-07-06,Electronics,North,Online,1,179.00,108.00,5,completed
+PJ-07-0197,2026-07-13,Home & Living,East,Online,1,89.00,36.00,0,completed
+PJ-07-0198,2026-07-04,Apparel,East,Online,1,73.60,24.00,15,completed
+PJ-07-0199,2026-07-15,Apparel,West,Retail,3,64.00,24.00,15,completed
+PJ-07-0200,2026-07-10,Electronics,South,Online,1,179.00,108.00,0,refunded
+PJ-07-0201,2026-07-27,Electronics,West,Online,2,179.00,108.00,0,completed
+PJ-07-0202,2026-07-28,Apparel,East,Online,3,57.60,24.00,5,completed
+PJ-07-0203,2026-07-13,Accessories,East,Wholesale,1,35.10,12.00,0,refunded
+PJ-07-0204,2026-07-26,Electronics,North,Retail,1,179.00,108.00,10,completed
+PJ-07-0205,2026-07-11,Home & Living,East,Online,2,80.10,36.00,0,completed
+PJ-07-0206,2026-07-02,Electronics,East,Retail,1,179.00,108.00,0,completed
+PJ-07-0207,2026-07-17,Electronics,South,Wholesale,1,161.10,108.00,0,completed
+PJ-07-0208,2026-07-21,Home & Living,East,Online,3,89.00,36.00,10,completed
+PJ-07-0209,2026-07-12,Electronics,East,Online,1,179.00,108.00,10,completed
+PJ-07-0210,2026-07-09,Home & Living,South,Wholesale,1,89.00,36.00,5,completed
+PJ-07-0211,2026-07-04,Accessories,East,Retail,2,39.00,12.00,10,completed
+PJ-07-0212,2026-07-16,Accessories,South,Online,3,35.10,12.00,0,completed
+PJ-07-0213,2026-07-03,Electronics,East,Retail,2,205.85,108.00,0,completed
+PJ-07-0214,2026-07-30,Apparel,South,Retail,2,64.00,24.00,0,completed
+PJ-07-0215,2026-07-16,Home & Living,North,Online,2,80.10,36.00,10,completed
+PJ-07-0216,2026-07-03,Accessories,East,Online,2,35.10,12.00,10,completed
+PJ-07-0217,2026-07-19,Electronics,North,Online,1,179.00,108.00,5,completed
+PJ-07-0218,2026-07-05,Electronics,South,Retail,1,179.00,108.00,0,completed
+PJ-07-0219,2026-07-06,Home & Living,East,Wholesale,1,102.35,36.00,0,completed
+PJ-07-0220,2026-07-18,Apparel,East,Online,1,64.00,24.00,10,completed
+PJ-07-0221,2026-07-19,Electronics,South,Online,2,205.85,108.00,10,completed
+PJ-07-0222,2026-07-03,Apparel,North,Wholesale,2,73.60,24.00,15,completed
+PJ-07-0223,2026-07-20,Electronics,North,Online,2,205.85,108.00,15,refunded
+PJ-07-0224,2026-07-26,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-07-0225,2026-07-07,Electronics,East,Retail,1,205.85,108.00,15,cancelled
+PJ-07-0226,2026-07-13,Home & Living,South,Retail,2,89.00,36.00,0,completed
+PJ-07-0227,2026-07-15,Home & Living,South,Online,1,80.10,36.00,10,completed
+PJ-07-0228,2026-07-29,Accessories,South,Retail,3,44.85,12.00,0,completed
+PJ-07-0229,2026-07-17,Electronics,West,Online,1,179.00,108.00,0,refunded
+PJ-07-0230,2026-07-31,Electronics,South,Online,1,179.00,108.00,0,completed
+PJ-08-0001,2026-08-21,Accessories,West,Online,1,39.00,12.00,5,completed
+PJ-08-0002,2026-08-12,Home & Living,West,Online,1,89.00,36.00,0,completed
+PJ-08-0003,2026-08-17,Home & Living,West,Retail,1,89.00,36.00,0,cancelled
+PJ-08-0004,2026-08-26,Electronics,East,Online,1,179.00,108.00,0,completed
+PJ-08-0005,2026-08-02,Electronics,North,Online,2,161.10,108.00,10,completed
+PJ-08-0006,2026-08-17,Electronics,South,Online,2,179.00,108.00,5,cancelled
+PJ-08-0007,2026-08-10,Apparel,East,Online,2,57.60,24.00,15,completed
+PJ-08-0008,2026-08-01,Electronics,East,Online,1,161.10,108.00,10,completed
+PJ-08-0009,2026-08-28,Accessories,North,Retail,1,39.00,12.00,15,completed
+PJ-08-0010,2026-08-17,Electronics,West,Online,2,179.00,108.00,10,refunded
+PJ-08-0011,2026-08-01,Home & Living,West,Online,1,89.00,36.00,5,completed
+PJ-08-0012,2026-08-16,Electronics,North,Retail,2,205.85,108.00,15,completed
+PJ-08-0013,2026-08-31,Electronics,South,Online,2,205.85,108.00,15,completed
+PJ-08-0014,2026-08-21,Apparel,East,Retail,1,64.00,24.00,0,completed
+PJ-08-0015,2026-08-10,Home & Living,East,Retail,2,80.10,36.00,0,completed
+PJ-08-0016,2026-08-30,Electronics,East,Online,2,161.10,108.00,5,completed
+PJ-08-0017,2026-08-26,Accessories,South,Online,1,39.00,12.00,0,refunded
+PJ-08-0018,2026-08-24,Apparel,West,Online,3,73.60,24.00,10,completed
+PJ-08-0019,2026-08-20,Home & Living,South,Online,2,89.00,36.00,15,completed
+PJ-08-0020,2026-08-11,Home & Living,West,Online,2,89.00,36.00,10,cancelled
+PJ-08-0021,2026-08-21,Home & Living,West,Online,1,102.35,36.00,0,completed
+PJ-08-0022,2026-08-25,Home & Living,North,Retail,1,89.00,36.00,0,completed
+PJ-08-0023,2026-08-30,Apparel,North,Wholesale,1,57.60,24.00,0,refunded
+PJ-08-0024,2026-08-30,Accessories,East,Retail,1,39.00,12.00,0,completed
+PJ-08-0025,2026-08-18,Accessories,West,Wholesale,1,35.10,12.00,0,completed
+PJ-08-0026,2026-08-06,Home & Living,West,Retail,2,89.00,36.00,15,completed
+PJ-08-0027,2026-08-22,Home & Living,South,Online,3,80.10,36.00,5,completed
+PJ-08-0028,2026-08-22,Home & Living,North,Online,1,102.35,36.00,0,completed
+PJ-08-0029,2026-08-15,Electronics,East,Wholesale,1,179.00,108.00,0,completed
+PJ-08-0030,2026-08-02,Apparel,North,Online,1,73.60,24.00,15,completed
+PJ-08-0031,2026-08-10,Accessories,East,Retail,1,39.00,12.00,5,completed
+PJ-08-0032,2026-08-20,Apparel,East,Online,2,57.60,24.00,10,completed
+PJ-08-0033,2026-08-25,Apparel,South,Retail,2,64.00,24.00,10,completed
+PJ-08-0034,2026-08-03,Apparel,North,Online,2,64.00,24.00,10,completed
+PJ-08-0035,2026-08-28,Home & Living,West,Online,1,80.10,36.00,0,completed
+PJ-08-0036,2026-08-02,Electronics,West,Online,1,179.00,108.00,10,completed
+PJ-08-0037,2026-08-24,Apparel,North,Online,3,64.00,24.00,10,completed
+PJ-08-0038,2026-08-23,Electronics,North,Online,1,179.00,108.00,5,completed
+PJ-08-0039,2026-08-25,Electronics,South,Retail,4,161.10,108.00,0,cancelled
+PJ-08-0040,2026-08-28,Electronics,West,Online,2,179.00,108.00,15,completed
+PJ-08-0041,2026-08-18,Home & Living,West,Online,2,89.00,36.00,0,completed
+PJ-08-0042,2026-08-15,Accessories,West,Online,3,39.00,12.00,5,completed
+PJ-08-0043,2026-08-30,Home & Living,North,Online,2,89.00,36.00,0,completed
+PJ-08-0044,2026-08-02,Home & Living,West,Retail,2,89.00,36.00,0,completed
+PJ-08-0045,2026-08-08,Electronics,South,Retail,2,179.00,108.00,10,cancelled
+PJ-08-0046,2026-08-30,Home & Living,East,Online,2,102.35,36.00,0,completed
+PJ-08-0047,2026-08-22,Home & Living,South,Online,1,89.00,36.00,15,completed
+PJ-08-0048,2026-08-02,Electronics,East,Wholesale,2,205.85,108.00,15,completed
+PJ-08-0049,2026-08-13,Home & Living,South,Retail,1,89.00,36.00,0,completed
+PJ-08-0050,2026-08-15,Home & Living,North,Online,4,89.00,36.00,5,completed
+PJ-08-0051,2026-08-21,Home & Living,North,Wholesale,3,89.00,36.00,10,completed
+PJ-08-0052,2026-08-09,Home & Living,West,Retail,2,89.00,36.00,0,completed
+PJ-08-0053,2026-08-22,Electronics,South,Online,3,205.85,108.00,0,refunded
+PJ-08-0054,2026-08-30,Home & Living,South,Wholesale,1,80.10,36.00,0,completed
+PJ-08-0055,2026-08-13,Apparel,South,Online,2,57.60,24.00,5,completed
+PJ-08-0056,2026-08-09,Electronics,East,Online,1,179.00,108.00,15,completed
+PJ-08-0057,2026-08-30,Apparel,South,Online,1,64.00,24.00,15,completed
+PJ-08-0058,2026-08-30,Home & Living,West,Online,1,89.00,36.00,5,completed
+PJ-08-0059,2026-08-18,Home & Living,East,Online,3,80.10,36.00,5,completed
+PJ-08-0060,2026-08-06,Apparel,South,Retail,1,64.00,24.00,10,completed
+PJ-08-0061,2026-08-31,Apparel,North,Retail,1,64.00,24.00,0,completed
+PJ-08-0062,2026-08-17,Home & Living,West,Online,2,80.10,36.00,15,completed
+PJ-08-0063,2026-08-18,Home & Living,West,Online,2,102.35,36.00,10,cancelled
+PJ-08-0064,2026-08-27,Home & Living,West,Retail,3,89.00,36.00,0,completed
+PJ-08-0065,2026-08-20,Home & Living,East,Retail,1,80.10,36.00,0,completed
+PJ-08-0066,2026-08-19,Electronics,South,Wholesale,1,179.00,108.00,15,cancelled
+PJ-08-0067,2026-08-02,Apparel,North,Online,1,57.60,24.00,0,completed
+PJ-08-0068,2026-08-03,Apparel,West,Retail,2,73.60,24.00,10,cancelled
+PJ-08-0069,2026-08-29,Accessories,North,Online,3,35.10,12.00,0,completed
+PJ-08-0070,2026-08-30,Home & Living,East,Wholesale,2,89.00,36.00,0,refunded
+PJ-08-0071,2026-08-31,Home & Living,South,Retail,2,80.10,36.00,0,completed
+PJ-08-0072,2026-08-19,Electronics,West,Retail,2,161.10,108.00,15,completed
+PJ-08-0073,2026-08-24,Accessories,North,Online,4,39.00,12.00,0,completed
+PJ-08-0074,2026-08-11,Apparel,West,Wholesale,1,73.60,24.00,5,completed
+PJ-08-0075,2026-08-31,Electronics,West,Online,2,161.10,108.00,0,completed
+PJ-08-0076,2026-08-08,Home & Living,North,Online,1,89.00,36.00,15,completed
+PJ-08-0077,2026-08-03,Electronics,North,Wholesale,1,205.85,108.00,0,completed
+PJ-08-0078,2026-08-15,Home & Living,West,Online,1,89.00,36.00,10,completed
+PJ-08-0079,2026-08-13,Home & Living,North,Online,1,89.00,36.00,15,completed
+PJ-08-0080,2026-08-08,Accessories,South,Retail,1,44.85,12.00,0,completed
+PJ-08-0081,2026-08-06,Home & Living,West,Online,1,89.00,36.00,0,completed
+PJ-08-0082,2026-08-21,Home & Living,West,Retail,1,89.00,36.00,0,completed
+PJ-08-0083,2026-08-11,Accessories,West,Retail,1,44.85,12.00,5,completed
+PJ-08-0084,2026-08-20,Apparel,South,Online,2,64.00,24.00,5,completed
+PJ-08-0085,2026-08-31,Accessories,East,Online,2,35.10,12.00,10,completed
+PJ-08-0086,2026-08-09,Home & Living,West,Online,3,89.00,36.00,10,cancelled
+PJ-08-0087,2026-08-25,Home & Living,North,Wholesale,1,89.00,36.00,5,completed
+PJ-08-0088,2026-08-03,Apparel,West,Retail,1,73.60,24.00,0,completed
+PJ-08-0089,2026-08-14,Home & Living,West,Online,4,80.10,36.00,10,completed
+PJ-08-0090,2026-08-30,Electronics,West,Online,3,205.85,108.00,15,completed
+PJ-08-0091,2026-08-21,Electronics,North,Online,1,205.85,108.00,0,completed
+PJ-08-0092,2026-08-21,Home & Living,West,Wholesale,1,80.10,36.00,0,completed
+PJ-08-0093,2026-08-17,Home & Living,South,Online,1,89.00,36.00,0,cancelled
+PJ-08-0094,2026-08-10,Electronics,West,Wholesale,1,179.00,108.00,0,completed
+PJ-08-0095,2026-08-07,Electronics,West,Online,1,161.10,108.00,0,completed
+PJ-08-0096,2026-08-23,Home & Living,North,Online,1,89.00,36.00,15,completed
+PJ-08-0097,2026-08-24,Accessories,South,Online,2,44.85,12.00,10,completed
+PJ-08-0098,2026-08-26,Electronics,West,Retail,1,161.10,108.00,5,completed
+PJ-08-0099,2026-08-07,Electronics,West,Retail,1,179.00,108.00,0,completed
+PJ-08-0100,2026-08-26,Apparel,North,Online,3,64.00,24.00,0,completed
+PJ-08-0101,2026-08-09,Electronics,West,Online,2,161.10,108.00,10,completed
+PJ-08-0102,2026-08-12,Home & Living,West,Retail,3,102.35,36.00,10,completed
+PJ-08-0103,2026-08-11,Apparel,North,Online,1,73.60,24.00,15,completed
+PJ-08-0104,2026-08-20,Electronics,South,Online,1,161.10,108.00,15,completed
+PJ-08-0105,2026-08-30,Accessories,South,Online,1,39.00,12.00,0,completed
+PJ-08-0106,2026-08-02,Electronics,East,Wholesale,1,179.00,108.00,5,refunded
+PJ-08-0107,2026-08-16,Electronics,West,Retail,1,161.10,108.00,5,completed
+PJ-08-0108,2026-08-26,Electronics,South,Online,1,205.85,108.00,0,completed
+PJ-08-0109,2026-08-25,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-08-0110,2026-08-12,Apparel,North,Retail,1,64.00,24.00,5,completed
+PJ-08-0111,2026-08-25,Apparel,South,Online,4,57.60,24.00,0,completed
+PJ-08-0112,2026-08-15,Apparel,North,Retail,1,73.60,24.00,15,completed
+PJ-08-0113,2026-08-20,Electronics,South,Retail,3,179.00,108.00,10,completed
+PJ-08-0114,2026-08-18,Home & Living,South,Online,2,102.35,36.00,10,completed
+PJ-08-0115,2026-08-29,Apparel,North,Online,2,57.60,24.00,0,cancelled
+PJ-08-0116,2026-08-05,Apparel,South,Online,2,64.00,24.00,15,completed
+PJ-08-0117,2026-08-21,Home & Living,East,Retail,1,89.00,36.00,15,completed
+PJ-08-0118,2026-08-13,Apparel,East,Retail,3,57.60,24.00,5,completed
+PJ-08-0119,2026-08-25,Home & Living,North,Retail,1,102.35,36.00,0,completed
+PJ-08-0120,2026-08-31,Electronics,West,Retail,1,205.85,108.00,0,completed
+PJ-08-0121,2026-08-19,Electronics,West,Retail,3,179.00,108.00,0,completed
+PJ-08-0122,2026-08-15,Apparel,North,Online,3,57.60,24.00,5,completed
+PJ-08-0123,2026-08-07,Accessories,South,Wholesale,1,44.85,12.00,0,completed
+PJ-08-0124,2026-08-12,Home & Living,South,Online,2,89.00,36.00,5,completed
+PJ-08-0125,2026-08-01,Apparel,South,Online,1,64.00,24.00,10,completed
+PJ-08-0126,2026-08-23,Home & Living,East,Retail,4,80.10,36.00,15,completed
+PJ-08-0127,2026-08-13,Home & Living,North,Retail,1,102.35,36.00,0,completed
+PJ-08-0128,2026-08-25,Home & Living,South,Retail,2,89.00,36.00,10,completed
+PJ-08-0129,2026-08-06,Electronics,West,Online,1,179.00,108.00,5,completed
+PJ-08-0130,2026-08-07,Electronics,North,Wholesale,1,179.00,108.00,10,completed
+PJ-08-0131,2026-08-14,Electronics,East,Retail,1,179.00,108.00,0,completed
+PJ-08-0132,2026-08-20,Electronics,East,Retail,2,205.85,108.00,0,completed
+PJ-08-0133,2026-08-24,Electronics,West,Online,1,179.00,108.00,5,completed
+PJ-08-0134,2026-08-21,Home & Living,North,Online,4,102.35,36.00,0,completed
+PJ-08-0135,2026-08-19,Apparel,West,Online,2,57.60,24.00,0,completed
+PJ-08-0136,2026-08-09,Home & Living,South,Online,1,80.10,36.00,10,completed
+PJ-08-0137,2026-08-25,Apparel,West,Online,1,64.00,24.00,0,completed
+PJ-08-0138,2026-08-30,Home & Living,South,Wholesale,1,102.35,36.00,5,completed
+PJ-08-0139,2026-08-21,Apparel,North,Online,1,64.00,24.00,0,completed
+PJ-08-0140,2026-08-04,Accessories,West,Retail,1,39.00,12.00,0,completed
+PJ-08-0141,2026-08-01,Home & Living,South,Online,1,102.35,36.00,0,completed
+PJ-08-0142,2026-08-28,Apparel,East,Retail,1,64.00,24.00,0,completed
+PJ-08-0143,2026-08-03,Home & Living,East,Retail,2,89.00,36.00,5,completed
+PJ-08-0144,2026-08-16,Electronics,South,Online,1,179.00,108.00,10,completed
+PJ-08-0145,2026-08-24,Home & Living,North,Online,3,89.00,36.00,0,completed
+PJ-08-0146,2026-08-05,Electronics,South,Wholesale,3,161.10,108.00,0,completed
+PJ-08-0147,2026-08-24,Electronics,East,Online,1,205.85,108.00,0,completed
+PJ-08-0148,2026-08-06,Accessories,South,Retail,4,35.10,12.00,0,completed
+PJ-08-0149,2026-08-25,Apparel,East,Online,2,64.00,24.00,0,completed
+PJ-08-0150,2026-08-10,Electronics,South,Online,2,161.10,108.00,0,completed
+PJ-08-0151,2026-08-26,Electronics,South,Online,3,179.00,108.00,0,completed
+PJ-08-0152,2026-08-23,Apparel,North,Wholesale,1,57.60,24.00,15,completed
+PJ-08-0153,2026-08-17,Home & Living,South,Online,4,89.00,36.00,15,completed
+PJ-08-0154,2026-08-08,Home & Living,West,Retail,1,89.00,36.00,10,completed
+PJ-08-0155,2026-08-27,Home & Living,West,Online,2,80.10,36.00,15,refunded
+PJ-08-0156,2026-08-09,Home & Living,East,Wholesale,1,102.35,36.00,0,completed
+PJ-08-0157,2026-08-31,Home & Living,South,Online,2,89.00,36.00,0,completed
+PJ-08-0158,2026-08-11,Electronics,West,Online,1,179.00,108.00,5,completed
+PJ-08-0159,2026-08-04,Home & Living,North,Online,2,89.00,36.00,0,completed
+PJ-08-0160,2026-08-03,Home & Living,South,Wholesale,1,89.00,36.00,15,completed
+PJ-08-0161,2026-08-06,Apparel,North,Wholesale,3,64.00,24.00,0,completed
+PJ-08-0162,2026-08-05,Apparel,North,Online,3,64.00,24.00,0,completed
+PJ-08-0163,2026-08-22,Electronics,North,Retail,1,179.00,108.00,0,cancelled
+PJ-08-0164,2026-08-21,Home & Living,West,Retail,1,102.35,36.00,0,completed
+PJ-08-0165,2026-08-06,Electronics,West,Retail,1,179.00,108.00,5,completed
+PJ-08-0166,2026-08-07,Home & Living,South,Online,1,89.00,36.00,0,completed
+PJ-08-0167,2026-08-21,Electronics,East,Online,3,161.10,108.00,0,completed
+PJ-08-0168,2026-08-14,Electronics,South,Retail,3,179.00,108.00,15,cancelled
+PJ-08-0169,2026-08-01,Electronics,West,Retail,1,161.10,108.00,0,refunded
+PJ-08-0170,2026-08-13,Electronics,East,Online,1,179.00,108.00,0,completed
+PJ-08-0171,2026-08-02,Apparel,West,Online,2,64.00,24.00,0,completed
+PJ-08-0172,2026-08-09,Apparel,North,Retail,3,57.60,24.00,0,refunded
+PJ-08-0173,2026-08-06,Accessories,South,Online,1,44.85,12.00,10,completed
+PJ-08-0174,2026-08-31,Apparel,South,Online,1,57.60,24.00,10,completed
+PJ-08-0175,2026-08-03,Electronics,North,Online,1,161.10,108.00,0,completed
+PJ-08-0176,2026-08-26,Electronics,South,Online,1,205.85,108.00,0,completed
+PJ-08-0177,2026-08-30,Electronics,South,Retail,3,205.85,108.00,0,completed
+PJ-08-0178,2026-08-13,Accessories,North,Online,1,39.00,12.00,15,refunded
+PJ-08-0179,2026-08-31,Apparel,West,Retail,1,73.60,24.00,0,completed
+PJ-08-0180,2026-08-13,Apparel,East,Retail,1,64.00,24.00,15,completed
+PJ-08-0181,2026-08-19,Apparel,West,Retail,2,64.00,24.00,0,completed
+PJ-08-0182,2026-08-31,Accessories,South,Retail,1,35.10,12.00,0,completed
+PJ-08-0183,2026-08-12,Home & Living,East,Online,3,89.00,36.00,15,completed
+PJ-08-0184,2026-08-11,Apparel,West,Online,1,64.00,24.00,0,completed
+PJ-08-0185,2026-08-01,Home & Living,North,Online,2,89.00,36.00,5,completed
+PJ-08-0186,2026-08-18,Electronics,West,Online,1,179.00,108.00,0,completed
+PJ-08-0187,2026-08-02,Apparel,East,Online,1,64.00,24.00,0,completed
+PJ-08-0188,2026-08-06,Accessories,North,Online,3,39.00,12.00,0,completed
+PJ-08-0189,2026-08-16,Electronics,North,Online,2,161.10,108.00,0,completed
+PJ-08-0190,2026-08-07,Home & Living,West,Retail,2,102.35,36.00,15,completed
+PJ-08-0191,2026-08-02,Home & Living,West,Online,3,89.00,36.00,0,completed
+PJ-08-0192,2026-08-10,Electronics,West,Online,1,179.00,108.00,15,completed
+PJ-08-0193,2026-08-28,Home & Living,North,Online,1,80.10,36.00,15,completed
+PJ-08-0194,2026-08-13,Apparel,South,Online,1,64.00,24.00,5,completed
+PJ-08-0195,2026-08-09,Electronics,South,Retail,2,179.00,108.00,15,completed
+PJ-08-0196,2026-08-12,Home & Living,West,Wholesale,2,89.00,36.00,5,completed
+PJ-08-0197,2026-08-18,Electronics,West,Online,1,205.85,108.00,0,completed
+PJ-08-0198,2026-08-02,Apparel,South,Online,2,64.00,24.00,0,cancelled
+PJ-08-0199,2026-08-05,Apparel,North,Online,4,57.60,24.00,0,cancelled
+PJ-08-0200,2026-08-27,Electronics,East,Online,2,179.00,108.00,0,completed
+PJ-08-0201,2026-08-11,Electronics,East,Online,3,179.00,108.00,15,completed
+PJ-08-0202,2026-08-14,Electronics,North,Online,1,179.00,108.00,0,completed
+PJ-08-0203,2026-08-10,Home & Living,East,Retail,1,80.10,36.00,10,completed
+PJ-08-0204,2026-08-09,Home & Living,West,Online,2,80.10,36.00,0,completed
+PJ-08-0205,2026-08-23,Accessories,South,Online,1,44.85,12.00,0,completed
+PJ-08-0206,2026-08-10,Apparel,East,Online,1,64.00,24.00,0,completed
+PJ-08-0207,2026-08-15,Accessories,East,Online,1,39.00,12.00,0,completed
+PJ-08-0208,2026-08-14,Accessories,West,Retail,3,39.00,12.00,10,completed
+PJ-08-0209,2026-08-23,Home & Living,West,Online,3,89.00,36.00,0,completed
+PJ-08-0210,2026-08-27,Apparel,North,Online,1,73.60,24.00,15,completed
+PJ-08-0211,2026-08-15,Electronics,West,Retail,1,179.00,108.00,0,completed
+PJ-08-0212,2026-08-06,Electronics,West,Retail,1,179.00,108.00,0,completed
+PJ-08-0213,2026-08-10,Apparel,North,Online,1,64.00,24.00,0,completed
+PJ-08-0214,2026-08-09,Apparel,West,Online,3,64.00,24.00,5,refunded
+PJ-08-0215,2026-08-20,Apparel,North,Online,2,73.60,24.00,15,refunded
+PJ-08-0216,2026-08-14,Apparel,West,Retail,1,64.00,24.00,5,completed
+PJ-08-0217,2026-08-20,Electronics,West,Retail,1,205.85,108.00,10,completed
+PJ-08-0218,2026-08-10,Electronics,North,Online,1,205.85,108.00,15,completed
+PJ-08-0219,2026-08-21,Home & Living,East,Online,2,89.00,36.00,0,completed
+PJ-08-0220,2026-08-20,Apparel,West,Retail,2,64.00,24.00,15,completed
+PJ-08-0221,2026-08-30,Home & Living,West,Online,2,89.00,36.00,0,completed
+PJ-08-0222,2026-08-18,Home & Living,West,Wholesale,2,102.35,36.00,0,completed
+PJ-08-0223,2026-08-06,Accessories,East,Online,1,44.85,12.00,15,completed
+PJ-08-0224,2026-08-06,Apparel,East,Retail,1,64.00,24.00,15,completed
+PJ-08-0225,2026-08-29,Electronics,East,Online,2,161.10,108.00,0,completed
+PJ-08-0226,2026-08-19,Apparel,North,Online,1,64.00,24.00,15,completed
+PJ-08-0227,2026-08-02,Home & Living,South,Online,1,80.10,36.00,10,completed
+PJ-08-0228,2026-08-05,Accessories,East,Retail,1,39.00,12.00,5,completed
+PJ-08-0229,2026-08-11,Accessories,North,Online,1,39.00,12.00,10,completed
+PJ-08-0230,2026-08-25,Electronics,North,Online,1,161.10,108.00,5,completed
+PJ-08-0231,2026-08-01,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-08-0232,2026-08-01,Electronics,North,Retail,1,205.85,108.00,0,completed
+PJ-08-0233,2026-08-19,Electronics,East,Online,3,205.85,108.00,0,completed
+PJ-08-0234,2026-08-17,Electronics,East,Online,2,179.00,108.00,0,cancelled
+PJ-08-0235,2026-08-25,Electronics,South,Online,3,161.10,108.00,0,completed
+PJ-08-0236,2026-08-05,Apparel,South,Retail,2,64.00,24.00,0,completed
+PJ-08-0237,2026-08-02,Apparel,West,Retail,1,64.00,24.00,10,cancelled
+PJ-08-0238,2026-08-21,Apparel,North,Online,1,57.60,24.00,5,completed
+PJ-08-0239,2026-08-23,Home & Living,South,Online,2,89.00,36.00,0,completed
+PJ-08-0240,2026-08-17,Home & Living,East,Retail,2,80.10,36.00,0,completed
+PJ-08-0241,2026-08-10,Electronics,North,Retail,1,179.00,108.00,0,completed
+PJ-08-0242,2026-08-12,Accessories,West,Online,1,35.10,12.00,0,completed
+PJ-08-0243,2026-08-08,Electronics,North,Online,1,179.00,108.00,10,completed
+PJ-08-0244,2026-08-03,Home & Living,North,Retail,1,102.35,36.00,15,completed
+PJ-08-0245,2026-08-10,Accessories,East,Online,1,39.00,12.00,0,completed
+PJ-08-0246,2026-08-22,Electronics,East,Online,1,179.00,108.00,0,completed
+PJ-08-0247,2026-08-06,Apparel,East,Online,1,73.60,24.00,15,completed
+PJ-08-0248,2026-08-06,Apparel,North,Online,4,73.60,24.00,5,completed
+PJ-08-0249,2026-08-14,Electronics,South,Online,2,179.00,108.00,0,completed
+PJ-08-0250,2026-08-16,Accessories,West,Online,1,44.85,12.00,10,completed
+PJ-08-0251,2026-08-27,Apparel,South,Online,1,57.60,24.00,5,completed
+PJ-08-0252,2026-08-11,Home & Living,North,Retail,2,89.00,36.00,15,completed
+PJ-08-0253,2026-08-23,Electronics,North,Online,2,161.10,108.00,0,completed
+PJ-08-0254,2026-08-05,Apparel,North,Online,3,57.60,24.00,5,completed
+PJ-08-0255,2026-08-16,Home & Living,East,Online,4,89.00,36.00,10,completed
+PJ-08-0256,2026-08-13,Apparel,South,Online,1,57.60,24.00,0,completed
+PJ-08-0257,2026-08-04,Electronics,West,Retail,1,161.10,108.00,5,completed
+PJ-08-0258,2026-08-27,Electronics,North,Retail,4,205.85,108.00,10,completed
+PJ-08-0259,2026-08-15,Apparel,East,Online,1,64.00,24.00,5,completed
+PJ-08-0260,2026-08-20,Apparel,West,Retail,1,57.60,24.00,0,completed
+PJ-08-0261,2026-08-01,Apparel,East,Online,2,73.60,24.00,10,completed
+PJ-08-0262,2026-08-02,Apparel,South,Online,3,57.60,24.00,0,completed
+PJ-08-0263,2026-08-04,Home & Living,West,Online,3,89.00,36.00,15,completed
+PJ-08-0264,2026-08-02,Apparel,North,Retail,1,64.00,24.00,5,completed
+PJ-08-0265,2026-08-18,Apparel,West,Retail,1,64.00,24.00,15,completed
+PJ-09-0001,2026-09-05,Apparel,North,Online,2,73.60,24.00,10,completed
+PJ-09-0002,2026-09-20,Electronics,South,Online,4,205.85,108.00,5,completed
+PJ-09-0003,2026-09-20,Home & Living,East,Retail,2,102.35,36.00,15,completed
+PJ-09-0004,2026-09-07,Electronics,South,Online,2,205.85,108.00,15,completed
+PJ-09-0005,2026-09-06,Apparel,East,Retail,2,57.60,24.00,10,completed
+PJ-09-0006,2026-09-14,Apparel,East,Retail,1,64.00,24.00,10,completed
+PJ-09-0007,2026-09-02,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-09-0008,2026-09-02,Home & Living,East,Online,2,102.35,36.00,5,completed
+PJ-09-0009,2026-09-24,Apparel,South,Retail,2,64.00,24.00,10,completed
+PJ-09-0010,2026-09-10,Apparel,North,Wholesale,1,73.60,24.00,10,completed
+PJ-09-0011,2026-09-07,Apparel,West,Retail,3,73.60,24.00,10,completed
+PJ-09-0012,2026-09-25,Electronics,South,Online,1,179.00,108.00,0,refunded
+PJ-09-0013,2026-09-04,Apparel,West,Online,1,73.60,24.00,0,completed
+PJ-09-0014,2026-09-01,Apparel,East,Online,3,64.00,24.00,0,refunded
+PJ-09-0015,2026-09-25,Electronics,East,Online,2,205.85,108.00,0,completed
+PJ-09-0016,2026-09-08,Home & Living,South,Online,3,89.00,36.00,5,completed
+PJ-09-0017,2026-09-12,Electronics,South,Wholesale,2,205.85,108.00,0,completed
+PJ-09-0018,2026-09-20,Accessories,West,Wholesale,3,39.00,12.00,0,completed
+PJ-09-0019,2026-09-29,Electronics,South,Wholesale,2,205.85,108.00,5,refunded
+PJ-09-0020,2026-09-13,Accessories,East,Online,1,44.85,12.00,10,completed
+PJ-09-0021,2026-09-02,Electronics,East,Wholesale,1,179.00,108.00,0,completed
+PJ-09-0022,2026-09-18,Accessories,North,Retail,1,39.00,12.00,15,completed
+PJ-09-0023,2026-09-18,Home & Living,West,Retail,3,89.00,36.00,0,completed
+PJ-09-0024,2026-09-03,Home & Living,North,Online,3,89.00,36.00,10,completed
+PJ-09-0025,2026-09-14,Accessories,West,Online,1,44.85,12.00,0,completed
+PJ-09-0026,2026-09-01,Home & Living,North,Retail,2,89.00,36.00,0,refunded
+PJ-09-0027,2026-09-26,Home & Living,East,Retail,1,80.10,36.00,5,completed
+PJ-09-0028,2026-09-16,Apparel,South,Online,1,57.60,24.00,10,completed
+PJ-09-0029,2026-09-10,Apparel,East,Wholesale,1,64.00,24.00,0,completed
+PJ-09-0030,2026-09-13,Electronics,North,Online,2,205.85,108.00,0,completed
+PJ-09-0031,2026-09-17,Apparel,South,Online,1,73.60,24.00,0,completed
+PJ-09-0032,2026-09-19,Apparel,North,Retail,3,57.60,24.00,15,completed
+PJ-09-0033,2026-09-03,Home & Living,East,Online,2,80.10,36.00,0,completed
+PJ-09-0034,2026-09-08,Apparel,North,Online,1,64.00,24.00,0,completed
+PJ-09-0035,2026-09-22,Home & Living,East,Retail,1,102.35,36.00,0,refunded
+PJ-09-0036,2026-09-11,Home & Living,South,Retail,2,80.10,36.00,0,completed
+PJ-09-0037,2026-09-24,Home & Living,East,Retail,1,102.35,36.00,0,completed
+PJ-09-0038,2026-09-21,Home & Living,North,Retail,3,89.00,36.00,10,completed
+PJ-09-0039,2026-09-21,Apparel,North,Retail,3,64.00,24.00,10,completed
+PJ-09-0040,2026-09-07,Apparel,North,Online,2,57.60,24.00,15,completed
+PJ-09-0041,2026-09-08,Electronics,East,Online,2,179.00,108.00,5,completed
+PJ-09-0042,2026-09-08,Home & Living,South,Retail,1,89.00,36.00,0,completed
+PJ-09-0043,2026-09-28,Electronics,South,Retail,1,205.85,108.00,0,completed
+PJ-09-0044,2026-09-03,Electronics,East,Online,1,179.00,108.00,10,completed
+PJ-09-0045,2026-09-16,Electronics,West,Wholesale,1,205.85,108.00,0,completed
+PJ-09-0046,2026-09-27,Electronics,East,Retail,1,179.00,108.00,5,completed
+PJ-09-0047,2026-09-21,Electronics,North,Online,1,179.00,108.00,10,completed
+PJ-09-0048,2026-09-12,Apparel,West,Retail,3,64.00,24.00,10,completed
+PJ-09-0049,2026-09-08,Electronics,North,Online,1,179.00,108.00,0,completed
+PJ-09-0050,2026-09-27,Electronics,North,Retail,1,205.85,108.00,15,completed
+PJ-09-0051,2026-09-16,Apparel,South,Retail,2,57.60,24.00,0,completed
+PJ-09-0052,2026-09-19,Home & Living,South,Online,2,89.00,36.00,0,completed
+PJ-09-0053,2026-09-17,Accessories,West,Retail,2,39.00,12.00,15,completed
+PJ-09-0054,2026-09-03,Apparel,South,Online,4,57.60,24.00,0,completed
+PJ-09-0055,2026-09-05,Electronics,South,Retail,2,179.00,108.00,15,completed
+PJ-09-0056,2026-09-20,Accessories,North,Online,1,39.00,12.00,0,completed
+PJ-09-0057,2026-09-17,Apparel,West,Retail,2,64.00,24.00,5,completed
+PJ-09-0058,2026-09-29,Electronics,North,Online,2,179.00,108.00,15,completed
+PJ-09-0059,2026-09-12,Electronics,North,Retail,1,161.10,108.00,5,completed
+PJ-09-0060,2026-09-30,Apparel,North,Online,1,64.00,24.00,0,completed
+PJ-09-0061,2026-09-14,Accessories,East,Online,2,39.00,12.00,10,completed
+PJ-09-0062,2026-09-13,Electronics,South,Retail,1,205.85,108.00,0,completed
+PJ-09-0063,2026-09-09,Apparel,East,Retail,1,73.60,24.00,10,completed
+PJ-09-0064,2026-09-25,Apparel,South,Online,3,57.60,24.00,0,completed
+PJ-09-0065,2026-09-09,Electronics,East,Online,2,161.10,108.00,15,completed
+PJ-09-0066,2026-09-04,Apparel,South,Online,2,64.00,24.00,0,completed
+PJ-09-0067,2026-09-11,Electronics,North,Online,4,179.00,108.00,0,completed
+PJ-09-0068,2026-09-20,Electronics,West,Online,1,205.85,108.00,0,completed
+PJ-09-0069,2026-09-30,Apparel,West,Retail,2,64.00,24.00,0,completed
+PJ-09-0070,2026-09-07,Electronics,East,Online,3,179.00,108.00,10,completed
+PJ-09-0071,2026-09-08,Home & Living,North,Wholesale,1,102.35,36.00,5,completed
+PJ-09-0072,2026-09-19,Electronics,South,Online,2,179.00,108.00,0,completed
+PJ-09-0073,2026-09-18,Apparel,East,Online,3,64.00,24.00,10,refunded
+PJ-09-0074,2026-09-13,Electronics,North,Online,1,179.00,108.00,10,completed
+PJ-09-0075,2026-09-04,Home & Living,East,Retail,3,102.35,36.00,15,completed
+PJ-09-0076,2026-09-16,Electronics,South,Retail,4,161.10,108.00,15,completed
+PJ-09-0077,2026-09-01,Electronics,West,Online,1,179.00,108.00,15,completed
+PJ-09-0078,2026-09-14,Apparel,East,Online,1,73.60,24.00,0,completed
+PJ-09-0079,2026-09-24,Electronics,East,Online,3,161.10,108.00,0,completed
+PJ-09-0080,2026-09-09,Accessories,South,Wholesale,2,39.00,12.00,5,completed
+PJ-09-0081,2026-09-08,Home & Living,East,Online,1,89.00,36.00,10,completed
+PJ-09-0082,2026-09-04,Apparel,North,Retail,2,64.00,24.00,10,refunded
+PJ-09-0083,2026-09-12,Apparel,East,Online,4,73.60,24.00,5,completed
+PJ-09-0084,2026-09-17,Apparel,East,Online,2,64.00,24.00,0,completed
+PJ-09-0085,2026-09-18,Electronics,North,Online,1,179.00,108.00,5,cancelled
+PJ-09-0086,2026-09-15,Apparel,East,Retail,1,64.00,24.00,5,completed
+PJ-09-0087,2026-09-20,Home & Living,East,Online,1,102.35,36.00,5,refunded
+PJ-09-0088,2026-09-06,Home & Living,West,Online,1,102.35,36.00,0,completed
+PJ-09-0089,2026-09-06,Home & Living,South,Wholesale,2,89.00,36.00,15,completed
+PJ-09-0090,2026-09-14,Home & Living,West,Online,3,89.00,36.00,5,completed
+PJ-09-0091,2026-09-16,Home & Living,South,Wholesale,3,102.35,36.00,5,completed
+PJ-09-0092,2026-09-19,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-09-0093,2026-09-21,Electronics,North,Online,1,205.85,108.00,0,completed
+PJ-09-0094,2026-09-09,Accessories,East,Online,1,39.00,12.00,10,completed
+PJ-09-0095,2026-09-06,Apparel,East,Online,2,57.60,24.00,15,completed
+PJ-09-0096,2026-09-20,Home & Living,East,Online,4,89.00,36.00,15,completed
+PJ-09-0097,2026-09-21,Home & Living,West,Retail,1,89.00,36.00,0,completed
+PJ-09-0098,2026-09-10,Home & Living,East,Retail,1,80.10,36.00,0,completed
+PJ-09-0099,2026-09-15,Electronics,West,Online,3,179.00,108.00,15,completed
+PJ-09-0100,2026-09-24,Home & Living,North,Online,1,89.00,36.00,0,refunded
+PJ-09-0101,2026-09-02,Electronics,North,Retail,2,179.00,108.00,0,completed
+PJ-09-0102,2026-09-21,Home & Living,West,Online,1,102.35,36.00,5,completed
+PJ-09-0103,2026-09-27,Home & Living,South,Online,2,102.35,36.00,5,completed
+PJ-09-0104,2026-09-30,Accessories,East,Online,1,39.00,12.00,10,completed
+PJ-09-0105,2026-09-21,Apparel,West,Online,2,73.60,24.00,0,completed
+PJ-09-0106,2026-09-03,Home & Living,West,Online,1,89.00,36.00,0,completed
+PJ-09-0107,2026-09-25,Electronics,South,Online,1,179.00,108.00,15,refunded
+PJ-09-0108,2026-09-16,Accessories,East,Online,1,44.85,12.00,10,completed
+PJ-09-0109,2026-09-12,Home & Living,South,Online,2,80.10,36.00,0,completed
+PJ-09-0110,2026-09-13,Apparel,West,Online,1,64.00,24.00,10,completed
+PJ-09-0111,2026-09-26,Accessories,East,Online,2,44.85,12.00,5,completed
+PJ-09-0112,2026-09-05,Home & Living,East,Online,1,80.10,36.00,0,completed
+PJ-09-0113,2026-09-11,Electronics,North,Online,4,179.00,108.00,0,cancelled
+PJ-09-0114,2026-09-05,Home & Living,West,Retail,1,89.00,36.00,0,completed
+PJ-09-0115,2026-09-10,Home & Living,West,Wholesale,1,89.00,36.00,0,completed
+PJ-09-0116,2026-09-05,Apparel,North,Online,1,57.60,24.00,0,completed
+PJ-09-0117,2026-09-27,Apparel,West,Retail,1,64.00,24.00,5,completed
+PJ-09-0118,2026-09-24,Electronics,North,Online,2,179.00,108.00,10,completed
+PJ-09-0119,2026-09-13,Home & Living,East,Wholesale,1,89.00,36.00,15,refunded
+PJ-09-0120,2026-09-09,Electronics,West,Retail,1,179.00,108.00,15,completed
+PJ-09-0121,2026-09-21,Home & Living,West,Online,1,102.35,36.00,10,completed
+PJ-09-0122,2026-09-01,Apparel,North,Retail,2,64.00,24.00,0,completed
+PJ-09-0123,2026-09-16,Home & Living,North,Retail,1,89.00,36.00,0,completed
+PJ-09-0124,2026-09-18,Home & Living,North,Online,1,102.35,36.00,5,completed
+PJ-09-0125,2026-09-13,Home & Living,East,Retail,1,89.00,36.00,5,completed
+PJ-09-0126,2026-09-18,Electronics,West,Online,1,205.85,108.00,0,completed
+PJ-09-0127,2026-09-27,Home & Living,South,Online,1,102.35,36.00,0,completed
+PJ-09-0128,2026-09-25,Electronics,West,Retail,3,205.85,108.00,10,completed
+PJ-09-0129,2026-09-22,Apparel,West,Online,2,64.00,24.00,10,completed
+PJ-09-0130,2026-09-11,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-09-0131,2026-09-04,Home & Living,West,Online,1,80.10,36.00,15,completed
+PJ-09-0132,2026-09-19,Electronics,East,Online,1,179.00,108.00,0,refunded
+PJ-09-0133,2026-09-16,Home & Living,North,Online,2,102.35,36.00,10,completed
+PJ-09-0134,2026-09-27,Accessories,East,Retail,1,44.85,12.00,10,completed
+PJ-09-0135,2026-09-10,Home & Living,North,Wholesale,4,89.00,36.00,0,completed
+PJ-09-0136,2026-09-07,Electronics,South,Online,1,179.00,108.00,10,completed
+PJ-09-0137,2026-09-04,Electronics,East,Retail,2,161.10,108.00,0,completed
+PJ-09-0138,2026-09-13,Home & Living,East,Retail,2,80.10,36.00,0,completed
+PJ-09-0139,2026-09-11,Electronics,East,Online,2,205.85,108.00,10,completed
+PJ-09-0140,2026-09-13,Electronics,East,Online,1,161.10,108.00,0,completed
+PJ-09-0141,2026-09-20,Accessories,North,Online,4,44.85,12.00,0,completed
+PJ-09-0142,2026-09-28,Home & Living,East,Online,3,102.35,36.00,10,completed
+PJ-09-0143,2026-09-19,Electronics,South,Online,1,179.00,108.00,0,completed
+PJ-09-0144,2026-09-08,Accessories,South,Online,1,35.10,12.00,10,refunded
+PJ-09-0145,2026-09-24,Apparel,East,Retail,1,64.00,24.00,10,completed
+PJ-09-0146,2026-09-26,Home & Living,West,Online,1,102.35,36.00,0,completed
+PJ-09-0147,2026-09-30,Electronics,North,Retail,1,179.00,108.00,15,completed
+PJ-09-0148,2026-09-10,Electronics,North,Online,2,205.85,108.00,10,completed
+PJ-09-0149,2026-09-22,Home & Living,West,Wholesale,2,89.00,36.00,0,completed
+PJ-09-0150,2026-09-05,Apparel,South,Online,1,64.00,24.00,10,completed
+PJ-09-0151,2026-09-17,Home & Living,West,Retail,1,89.00,36.00,5,completed
+PJ-09-0152,2026-09-21,Electronics,South,Online,4,179.00,108.00,0,completed
+PJ-09-0153,2026-09-11,Apparel,North,Online,1,73.60,24.00,0,completed
+PJ-09-0154,2026-09-21,Home & Living,North,Retail,1,102.35,36.00,10,completed
+PJ-09-0155,2026-09-20,Apparel,South,Online,3,64.00,24.00,0,completed
+PJ-09-0156,2026-09-24,Home & Living,North,Online,1,89.00,36.00,0,completed
+PJ-09-0157,2026-09-04,Apparel,East,Online,1,64.00,24.00,15,completed
+PJ-09-0158,2026-09-17,Home & Living,East,Online,2,89.00,36.00,15,completed
+PJ-09-0159,2026-09-19,Home & Living,North,Online,1,89.00,36.00,15,completed
+PJ-09-0160,2026-09-21,Home & Living,North,Online,2,102.35,36.00,0,completed
+PJ-09-0161,2026-09-21,Apparel,West,Online,1,64.00,24.00,0,completed
+PJ-09-0162,2026-09-03,Electronics,South,Online,4,179.00,108.00,0,completed
+PJ-09-0163,2026-09-11,Electronics,West,Online,1,205.85,108.00,15,completed
+PJ-09-0164,2026-09-08,Electronics,East,Retail,2,161.10,108.00,0,refunded
+PJ-09-0165,2026-09-08,Accessories,South,Online,1,39.00,12.00,0,completed
+PJ-09-0166,2026-09-22,Electronics,South,Online,2,161.10,108.00,0,completed
+PJ-09-0167,2026-09-18,Home & Living,South,Online,1,89.00,36.00,0,completed
+PJ-09-0168,2026-09-17,Apparel,South,Online,3,64.00,24.00,15,refunded
+PJ-09-0169,2026-09-11,Accessories,North,Online,3,39.00,12.00,0,completed
+PJ-09-0170,2026-09-24,Accessories,North,Retail,3,35.10,12.00,5,completed
+PJ-09-0171,2026-09-27,Apparel,East,Online,1,64.00,24.00,0,completed
+PJ-09-0172,2026-09-20,Accessories,East,Retail,2,39.00,12.00,0,completed
+PJ-09-0173,2026-09-23,Electronics,West,Online,3,161.10,108.00,15,completed
+PJ-09-0174,2026-09-13,Home & Living,West,Online,1,89.00,36.00,0,completed
+PJ-09-0175,2026-09-30,Accessories,East,Wholesale,1,39.00,12.00,0,completed
+PJ-09-0176,2026-09-15,Accessories,West,Retail,3,39.00,12.00,5,completed
+PJ-09-0177,2026-09-24,Home & Living,West,Retail,1,89.00,36.00,10,completed
+PJ-09-0178,2026-09-29,Electronics,North,Retail,1,161.10,108.00,15,completed
+PJ-09-0179,2026-09-25,Electronics,North,Online,1,205.85,108.00,0,completed
+PJ-09-0180,2026-09-20,Electronics,North,Retail,3,161.10,108.00,15,completed
+PJ-09-0181,2026-09-04,Apparel,South,Retail,3,64.00,24.00,5,completed
+PJ-09-0182,2026-09-06,Electronics,West,Retail,2,179.00,108.00,5,completed
+PJ-09-0183,2026-09-21,Home & Living,South,Retail,1,89.00,36.00,15,completed
+PJ-09-0184,2026-09-17,Electronics,West,Retail,4,179.00,108.00,5,completed
+PJ-09-0185,2026-09-06,Home & Living,East,Online,2,89.00,36.00,0,completed
+PJ-09-0186,2026-09-23,Home & Living,North,Online,1,80.10,36.00,0,completed
+PJ-09-0187,2026-09-05,Home & Living,South,Online,2,89.00,36.00,5,completed
+PJ-09-0188,2026-09-26,Electronics,North,Retail,1,179.00,108.00,10,completed
+PJ-09-0189,2026-09-15,Electronics,North,Retail,1,205.85,108.00,10,completed
+PJ-09-0190,2026-09-07,Apparel,North,Online,1,73.60,24.00,0,completed
+PJ-09-0191,2026-09-19,Home & Living,East,Online,1,89.00,36.00,5,cancelled
+PJ-09-0192,2026-09-10,Home & Living,South,Wholesale,2,102.35,36.00,0,completed
+PJ-09-0193,2026-09-12,Home & Living,West,Retail,2,89.00,36.00,0,completed
+PJ-09-0194,2026-09-28,Home & Living,East,Online,1,89.00,36.00,15,completed
+PJ-09-0195,2026-09-19,Home & Living,North,Online,2,102.35,36.00,5,completed
+PJ-09-0196,2026-09-17,Home & Living,East,Wholesale,2,80.10,36.00,10,completed
+PJ-09-0197,2026-09-26,Electronics,South,Wholesale,1,205.85,108.00,0,completed
+PJ-09-0198,2026-09-21,Home & Living,North,Retail,1,80.10,36.00,5,completed
+PJ-09-0199,2026-09-26,Home & Living,South,Online,1,102.35,36.00,0,completed
+PJ-09-0200,2026-09-17,Home & Living,East,Retail,1,102.35,36.00,0,completed
+PJ-09-0201,2026-09-01,Electronics,South,Online,3,161.10,108.00,5,completed
+PJ-09-0202,2026-09-16,Apparel,South,Retail,3,73.60,24.00,5,completed
+PJ-09-0203,2026-09-24,Electronics,North,Retail,1,205.85,108.00,10,completed
+PJ-09-0204,2026-09-22,Home & Living,East,Retail,3,102.35,36.00,0,refunded
+PJ-09-0205,2026-09-01,Home & Living,East,Wholesale,2,89.00,36.00,10,completed
+PJ-09-0206,2026-09-04,Home & Living,East,Retail,1,89.00,36.00,0,completed
+PJ-09-0207,2026-09-08,Electronics,East,Online,4,179.00,108.00,10,completed
+PJ-09-0208,2026-09-26,Home & Living,North,Retail,3,80.10,36.00,10,completed
+PJ-09-0209,2026-09-17,Electronics,South,Online,3,205.85,108.00,0,completed
+PJ-09-0210,2026-09-27,Accessories,South,Online,1,35.10,12.00,15,completed
+PJ-09-0211,2026-09-10,Home & Living,North,Retail,2,89.00,36.00,0,completed
+PJ-09-0212,2026-09-17,Home & Living,East,Online,2,89.00,36.00,0,completed
+PJ-09-0213,2026-09-18,Home & Living,East,Retail,2,102.35,36.00,0,completed
+PJ-09-0214,2026-09-20,Home & Living,North,Online,1,102.35,36.00,0,completed
+PJ-09-0215,2026-09-10,Apparel,South,Online,1,73.60,24.00,10,completed
+PJ-09-0216,2026-09-16,Home & Living,North,Online,1,80.10,36.00,5,completed
+PJ-09-0217,2026-09-19,Electronics,West,Retail,1,179.00,108.00,15,completed
+PJ-09-0218,2026-09-03,Apparel,West,Online,1,57.60,24.00,0,completed
+PJ-09-0219,2026-09-23,Apparel,West,Online,3,64.00,24.00,10,completed
+PJ-09-0220,2026-09-06,Electronics,East,Retail,3,161.10,108.00,5,completed
+PJ-09-0221,2026-09-12,Electronics,West,Online,1,205.85,108.00,10,completed
+PJ-09-0222,2026-09-13,Electronics,North,Online,2,205.85,108.00,10,completed
+PJ-09-0223,2026-09-08,Electronics,South,Online,4,161.10,108.00,0,completed
+PJ-09-0224,2026-09-19,Apparel,West,Retail,1,73.60,24.00,10,completed
+PJ-09-0225,2026-09-22,Home & Living,North,Retail,2,80.10,36.00,0,completed
+PJ-09-0226,2026-09-18,Electronics,North,Retail,1,161.10,108.00,0,completed
+PJ-09-0227,2026-09-20,Apparel,West,Online,2,64.00,24.00,0,completed
+PJ-09-0228,2026-09-19,Home & Living,North,Retail,2,80.10,36.00,10,completed
+PJ-09-0229,2026-09-15,Electronics,South,Online,3,205.85,108.00,10,completed
+PJ-09-0230,2026-09-30,Apparel,West,Retail,3,64.00,24.00,10,completed
+PJ-09-0231,2026-09-13,Accessories,South,Retail,1,39.00,12.00,0,completed
+PJ-09-0232,2026-09-12,Apparel,North,Retail,3,64.00,24.00,5,completed
+PJ-09-0233,2026-09-11,Electronics,West,Online,1,179.00,108.00,15,completed
+PJ-09-0234,2026-09-18,Home & Living,West,Retail,1,80.10,36.00,0,completed
+PJ-09-0235,2026-09-05,Accessories,South,Online,2,39.00,12.00,15,completed
+PJ-09-0236,2026-09-05,Apparel,North,Online,3,57.60,24.00,15,completed
+PJ-09-0237,2026-09-06,Electronics,West,Online,2,161.10,108.00,5,completed
+PJ-09-0238,2026-09-20,Home & Living,North,Online,3,89.00,36.00,15,completed
+PJ-09-0239,2026-09-18,Electronics,East,Online,1,161.10,108.00,15,completed
+PJ-09-0240,2026-09-23,Electronics,North,Online,2,205.85,108.00,5,completed
+PJ-09-0241,2026-09-20,Electronics,North,Online,2,179.00,108.00,15,completed
+PJ-09-0242,2026-09-10,Apparel,North,Wholesale,2,64.00,24.00,5,completed
+PJ-09-0243,2026-09-19,Accessories,East,Online,4,44.85,12.00,0,completed
+PJ-09-0244,2026-09-20,Apparel,East,Retail,2,64.00,24.00,15,completed
+PJ-09-0245,2026-09-02,Home & Living,East,Retail,2,102.35,36.00,5,completed
+PJ-09-0246,2026-09-28,Electronics,East,Online,2,205.85,108.00,0,completed
+PJ-09-0247,2026-09-06,Home & Living,South,Retail,1,89.00,36.00,0,completed
+PJ-09-0248,2026-09-06,Home & Living,North,Online,1,89.00,36.00,10,refunded
+PJ-09-0249,2026-09-16,Home & Living,West,Retail,1,80.10,36.00,15,completed
+PJ-09-0250,2026-09-24,Home & Living,East,Online,1,89.00,36.00,0,completed
+PJ-09-0251,2026-09-10,Electronics,West,Retail,2,179.00,108.00,5,completed
+PJ-09-0252,2026-09-09,Electronics,South,Online,1,205.85,108.00,5,completed
+PJ-09-0253,2026-09-17,Home & Living,North,Online,2,102.35,36.00,5,completed
+PJ-09-0254,2026-09-09,Apparel,East,Online,3,73.60,24.00,15,completed
+PJ-09-0255,2026-09-22,Electronics,South,Retail,2,179.00,108.00,10,completed
+PJ-09-0256,2026-09-06,Apparel,East,Online,2,64.00,24.00,0,completed
+PJ-09-0257,2026-09-22,Electronics,West,Online,2,205.85,108.00,0,completed
+PJ-09-0258,2026-09-02,Electronics,South,Wholesale,2,179.00,108.00,0,completed
+PJ-09-0259,2026-09-22,Home & Living,South,Wholesale,2,102.35,36.00,0,completed
+PJ-09-0260,2026-09-21,Accessories,West,Wholesale,1,35.10,12.00,15,completed
+PJ-09-0261,2026-09-11,Apparel,East,Online,1,64.00,24.00,5,completed
+PJ-09-0262,2026-09-09,Accessories,East,Online,1,39.00,12.00,10,completed
+PJ-09-0263,2026-09-04,Apparel,South,Online,1,64.00,24.00,5,completed
+PJ-09-0264,2026-09-03,Home & Living,North,Online,1,80.10,36.00,0,completed
+PJ-09-0265,2026-09-21,Home & Living,North,Wholesale,2,102.35,36.00,0,completed
+PJ-09-0266,2026-09-19,Accessories,North,Online,3,35.10,12.00,5,completed
+PJ-09-0267,2026-09-25,Apparel,North,Online,1,57.60,24.00,0,completed
+PJ-09-0268,2026-09-12,Accessories,East,Retail,1,39.00,12.00,0,completed
+PJ-09-0269,2026-09-03,Accessories,West,Retail,1,39.00,12.00,0,completed
+PJ-09-0270,2026-09-22,Accessories,South,Online,1,39.00,12.00,15,completed
+PJ-09-0271,2026-09-29,Electronics,West,Retail,1,179.00,108.00,0,completed
+PJ-09-0272,2026-09-16,Electronics,West,Online,2,205.85,108.00,5,completed
+PJ-09-0273,2026-09-15,Apparel,North,Online,1,64.00,24.00,5,completed
+PJ-09-0274,2026-09-22,Apparel,West,Wholesale,3,64.00,24.00,15,completed
+PJ-09-0275,2026-09-02,Accessories,South,Online,1,39.00,12.00,0,completed
+PJ-09-0276,2026-09-06,Home & Living,North,Wholesale,3,89.00,36.00,5,completed
+PJ-09-0277,2026-09-03,Apparel,North,Online,2,64.00,24.00,0,completed
+PJ-09-0278,2026-09-26,Electronics,West,Online,4,179.00,108.00,0,completed
+PJ-09-0279,2026-09-25,Apparel,North,Retail,1,64.00,24.00,0,completed
+PJ-09-0280,2026-09-23,Electronics,East,Online,1,179.00,108.00,0,completed
+PJ-09-0281,2026-09-20,Apparel,West,Retail,1,57.60,24.00,0,completed
+PJ-09-0282,2026-09-03,Home & Living,East,Online,3,80.10,36.00,15,completed
+PJ-09-0283,2026-09-09,Home & Living,West,Online,3,89.00,36.00,10,completed
+PJ-09-0284,2026-09-03,Electronics,East,Online,1,179.00,108.00,0,completed
+PJ-09-0285,2026-09-04,Electronics,East,Retail,4,179.00,108.00,5,completed
+PJ-09-0286,2026-09-09,Apparel,North,Online,3,57.60,24.00,5,completed
+PJ-09-0287,2026-09-02,Apparel,North,Retail,1,57.60,24.00,0,completed
+PJ-09-0288,2026-09-25,Apparel,West,Online,2,64.00,24.00,0,completed
+PJ-09-0289,2026-09-04,Electronics,North,Wholesale,2,205.85,108.00,5,completed
+PJ-09-0290,2026-09-11,Apparel,South,Retail,1,64.00,24.00,0,completed
+PJ-09-0291,2026-09-13,Apparel,South,Online,2,64.00,24.00,5,completed
+PJ-09-0292,2026-09-15,Accessories,South,Online,1,39.00,12.00,15,completed
+PJ-09-0293,2026-09-11,Home & Living,South,Online,2,102.35,36.00,0,completed
+PJ-09-0294,2026-09-14,Electronics,South,Retail,1,205.85,108.00,10,completed
+PJ-09-0295,2026-09-20,Apparel,South,Online,2,64.00,24.00,0,completed
+PJ-09-0296,2026-09-28,Electronics,South,Retail,3,205.85,108.00,0,completed
+PJ-09-0297,2026-09-08,Apparel,South,Online,2,64.00,24.00,10,completed
+PJ-09-0298,2026-09-02,Electronics,North,Wholesale,2,179.00,108.00,5,completed
+PJ-09-0299,2026-09-26,Electronics,North,Online,1,179.00,108.00,15,completed
+PJ-09-0300,2026-09-05,Accessories,East,Online,2,39.00,12.00,0,completed
+PJ-09-0301,2026-09-23,Home & Living,West,Retail,2,89.00,36.00,5,completed
+PJ-09-0302,2026-09-23,Home & Living,West,Online,3,80.10,36.00,15,completed
+PJ-09-0303,2026-09-03,Apparel,West,Wholesale,1,64.00,24.00,0,completed
+PJ-09-0304,2026-09-20,Home & Living,South,Retail,1,102.35,36.00,15,refunded
+PJ-09-0305,2026-09-30,Electronics,East,Wholesale,1,205.85,108.00,5,completed
+PJ-09-0306,2026-09-06,Electronics,North,Online,2,179.00,108.00,0,completed
+PJ-09-0307,2026-09-16,Home & Living,South,Retail,2,102.35,36.00,0,completed
+PJ-09-0308,2026-09-14,Electronics,East,Online,1,161.10,108.00,5,completed
+PJ-09-0309,2026-09-16,Apparel,East,Online,1,64.00,24.00,0,completed
+PJ-09-0310,2026-09-03,Electronics,West,Wholesale,1,179.00,108.00,0,completed

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+# Preserve source bytes for audit hashes and the SMTP-required CRLF email format.
+*.csv -text whitespace=cr-at-eol
+*.eml binary
+*.jpg binary
+*.mp4 binary

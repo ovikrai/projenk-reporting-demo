@@ -1,0 +1,422 @@
+{
+  "revenue": 38597.98,
+  "orders": 236,
+  "cogs": 20040.0,
+  "gross_profit": 18557.98,
+  "margin": 48.08,
+  "aov": 163.55,
+  "refund_rate": 4.84,
+  "refunded_orders": 12,
+  "cancelled_orders": 17,
+  "valid_rows": 265,
+  "categories": [
+    {
+      "name": "Electronics",
+      "revenue": 19229.12,
+      "orders": 71
+    },
+    {
+      "name": "Home & Living",
+      "revenue": 11770.72,
+      "orders": 76
+    },
+    {
+      "name": "Apparel",
+      "revenue": 5943.36,
+      "orders": 61
+    },
+    {
+      "name": "Accessories",
+      "revenue": 1654.78,
+      "orders": 28
+    }
+  ],
+  "channels": [
+    {
+      "name": "Online",
+      "revenue": 24187.56,
+      "orders": 143
+    },
+    {
+      "name": "Retail",
+      "revenue": 11327.31,
+      "orders": 73
+    },
+    {
+      "name": "Wholesale",
+      "revenue": 3083.11,
+      "orders": 20
+    }
+  ],
+  "daily": [
+    {
+      "name": "2026-08-01",
+      "revenue": 1254.92,
+      "orders": 8
+    },
+    {
+      "name": "2026-08-02",
+      "revenue": 1863.88,
+      "orders": 12
+    },
+    {
+      "name": "2026-08-03",
+      "revenue": 887.5,
+      "orders": 7
+    },
+    {
+      "name": "2026-08-04",
+      "revenue": 597.0,
+      "orders": 4
+    },
+    {
+      "name": "2026-08-05",
+      "revenue": 1113.31,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-06",
+      "revenue": 1741.53,
+      "orders": 14
+    },
+    {
+      "name": "2026-08-07",
+      "revenue": 809.05,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-08",
+      "revenue": 361.7,
+      "orders": 4
+    },
+    {
+      "name": "2026-08-09",
+      "revenue": 1259.07,
+      "orders": 7
+    },
+    {
+      "name": "2026-08-10",
+      "revenue": 1541.58,
+      "orders": 12
+    },
+    {
+      "name": "2026-08-11",
+      "revenue": 1051.99,
+      "orders": 8
+    },
+    {
+      "name": "2026-08-12",
+      "revenue": 1026.4,
+      "orders": 7
+    },
+    {
+      "name": "2026-08-13",
+      "revenue": 892.4,
+      "orders": 9
+    },
+    {
+      "name": "2026-08-14",
+      "revenue": 1170.46,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-15",
+      "revenue": 1213.97,
+      "orders": 9
+    },
+    {
+      "name": "2026-08-16",
+      "revenue": 1347.07,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-17",
+      "revenue": 598.97,
+      "orders": 3
+    },
+    {
+      "name": "2026-08-18",
+      "revenue": 1269.57,
+      "orders": 8
+    },
+    {
+      "name": "2026-08-19",
+      "revenue": 1726.02,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-20",
+      "revenue": 1840.29,
+      "orders": 10
+    },
+    {
+      "name": "2026-08-21",
+      "revenue": 2186.07,
+      "orders": 14
+    },
+    {
+      "name": "2026-08-22",
+      "revenue": 585.29,
+      "orders": 4
+    },
+    {
+      "name": "2026-08-23",
+      "revenue": 1379.05,
+      "orders": 8
+    },
+    {
+      "name": "2026-08-24",
+      "revenue": 1251.15,
+      "orders": 7
+    },
+    {
+      "name": "2026-08-25",
+      "revenue": 1789.05,
+      "orders": 11
+    },
+    {
+      "name": "2026-08-26",
+      "revenue": 1472.75,
+      "orders": 6
+    },
+    {
+      "name": "2026-08-27",
+      "revenue": 1483.34,
+      "orders": 5
+    },
+    {
+      "name": "2026-08-28",
+      "revenue": 549.64,
+      "orders": 5
+    },
+    {
+      "name": "2026-08-29",
+      "revenue": 427.5,
+      "orders": 2
+    },
+    {
+      "name": "2026-08-30",
+      "revenue": 2403.54,
+      "orders": 12
+    },
+    {
+      "name": "2026-08-31",
+      "revenue": 1503.92,
+      "orders": 10
+    }
+  ],
+  "previous": {
+    "revenue": 34296.26,
+    "orders": 210,
+    "cogs": 17304.0,
+    "gross_profit": 16992.26,
+    "margin": 49.55,
+    "aov": 163.32,
+    "refund_rate": 5.83,
+    "refunded_orders": 13,
+    "cancelled_orders": 7,
+    "valid_rows": 230,
+    "categories": [
+      {
+        "name": "Electronics",
+        "revenue": 15462.03,
+        "orders": 54
+      },
+      {
+        "name": "Home & Living",
+        "revenue": 10605.73,
+        "orders": 76
+      },
+      {
+        "name": "Apparel",
+        "revenue": 6713.44,
+        "orders": 54
+      },
+      {
+        "name": "Accessories",
+        "revenue": 1515.06,
+        "orders": 26
+      }
+    ],
+    "channels": [
+      {
+        "name": "Online",
+        "revenue": 19243.96,
+        "orders": 120
+      },
+      {
+        "name": "Retail",
+        "revenue": 10567.08,
+        "orders": 66
+      },
+      {
+        "name": "Wholesale",
+        "revenue": 4485.22,
+        "orders": 24
+      }
+    ],
+    "daily": [
+      {
+        "name": "2026-07-01",
+        "revenue": 120.64,
+        "orders": 2
+      },
+      {
+        "name": "2026-07-02",
+        "revenue": 1439.45,
+        "orders": 8
+      },
+      {
+        "name": "2026-07-03",
+        "revenue": 1446.74,
+        "orders": 9
+      },
+      {
+        "name": "2026-07-04",
+        "revenue": 1733.36,
+        "orders": 8
+      },
+      {
+        "name": "2026-07-05",
+        "revenue": 2006.3,
+        "orders": 12
+      },
+      {
+        "name": "2026-07-06",
+        "revenue": 1179.01,
+        "orders": 9
+      },
+      {
+        "name": "2026-07-07",
+        "revenue": 1007.84,
+        "orders": 6
+      },
+      {
+        "name": "2026-07-08",
+        "revenue": 579.54,
+        "orders": 5
+      },
+      {
+        "name": "2026-07-09",
+        "revenue": 1423.8,
+        "orders": 9
+      },
+      {
+        "name": "2026-07-10",
+        "revenue": 789.32,
+        "orders": 7
+      },
+      {
+        "name": "2026-07-11",
+        "revenue": 1097.49,
+        "orders": 8
+      },
+      {
+        "name": "2026-07-12",
+        "revenue": 1514.33,
+        "orders": 9
+      },
+      {
+        "name": "2026-07-13",
+        "revenue": 1169.3,
+        "orders": 5
+      },
+      {
+        "name": "2026-07-14",
+        "revenue": 624.45,
+        "orders": 7
+      },
+      {
+        "name": "2026-07-15",
+        "revenue": 1306.89,
+        "orders": 11
+      },
+      {
+        "name": "2026-07-16",
+        "revenue": 498.24,
+        "orders": 6
+      },
+      {
+        "name": "2026-07-17",
+        "revenue": 1312.67,
+        "orders": 7
+      },
+      {
+        "name": "2026-07-18",
+        "revenue": 685.57,
+        "orders": 4
+      },
+      {
+        "name": "2026-07-19",
+        "revenue": 1580.08,
+        "orders": 10
+      },
+      {
+        "name": "2026-07-20",
+        "revenue": 300.6,
+        "orders": 2
+      },
+      {
+        "name": "2026-07-21",
+        "revenue": 2115.52,
+        "orders": 10
+      },
+      {
+        "name": "2026-07-22",
+        "revenue": 826.58,
+        "orders": 4
+      },
+      {
+        "name": "2026-07-23",
+        "revenue": 896.0,
+        "orders": 4
+      },
+      {
+        "name": "2026-07-24",
+        "revenue": 882.98,
+        "orders": 6
+      },
+      {
+        "name": "2026-07-25",
+        "revenue": 451.5,
+        "orders": 3
+      },
+      {
+        "name": "2026-07-26",
+        "revenue": 2434.52,
+        "orders": 12
+      },
+      {
+        "name": "2026-07-27",
+        "revenue": 1161.71,
+        "orders": 6
+      },
+      {
+        "name": "2026-07-28",
+        "revenue": 393.24,
+        "orders": 3
+      },
+      {
+        "name": "2026-07-29",
+        "revenue": 952.99,
+        "orders": 6
+      },
+      {
+        "name": "2026-07-30",
+        "revenue": 483.76,
+        "orders": 4
+      },
+      {
+        "name": "2026-07-31",
+        "revenue": 1881.84,
+        "orders": 8
+      }
+    ]
+  },
+  "deltas": {
+    "revenue": 12.54,
+    "orders": 12.38,
+    "aov": 0.14,
+    "margin": -1.47
+  }
+}

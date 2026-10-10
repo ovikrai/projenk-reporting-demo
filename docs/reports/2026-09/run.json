@@ -1,0 +1,1094 @@
+{
+  "month": "2026-09",
+  "metrics": {
+    "revenue": 54335.43,
+    "orders": 289,
+    "cogs": 28620.0,
+    "gross_profit": 25715.43,
+    "margin": 47.33,
+    "aov": 188.01,
+    "refund_rate": 5.86,
+    "refunded_orders": 18,
+    "cancelled_orders": 3,
+    "valid_rows": 310,
+    "categories": [
+      {
+        "name": "Electronics",
+        "revenue": 30866.85,
+        "orders": 94
+      },
+      {
+        "name": "Home & Living",
+        "revenue": 13391.68,
+        "orders": 89
+      },
+      {
+        "name": "Apparel",
+        "revenue": 7951.36,
+        "orders": 73
+      },
+      {
+        "name": "Accessories",
+        "revenue": 2125.54,
+        "orders": 33
+      }
+    ],
+    "channels": [
+      {
+        "name": "Online",
+        "revenue": 32430.4,
+        "orders": 164
+      },
+      {
+        "name": "Retail",
+        "revenue": 16364.51,
+        "orders": 95
+      },
+      {
+        "name": "Wholesale",
+        "revenue": 5540.52,
+        "orders": 30
+      }
+    ],
+    "daily": [
+      {
+        "name": "2026-09-01",
+        "revenue": 899.49,
+        "orders": 4
+      },
+      {
+        "name": "2026-09-02",
+        "revenue": 2078.64,
+        "orders": 9
+      },
+      {
+        "name": "2026-09-03",
+        "revenue": 2527.96,
+        "orders": 14
+      },
+      {
+        "name": "2026-09-04",
+        "revenue": 2310.8,
+        "orders": 11
+      },
+      {
+        "name": "2026-09-05",
+        "revenue": 1181.36,
+        "orders": 10
+      },
+      {
+        "name": "2026-09-06",
+        "revenue": 2567.23,
+        "orders": 12
+      },
+      {
+        "name": "2026-09-07",
+        "revenue": 1364.59,
+        "orders": 6
+      },
+      {
+        "name": "2026-09-08",
+        "revenue": 2546.08,
+        "orders": 11
+      },
+      {
+        "name": "2026-09-09",
+        "revenue": 1424.26,
+        "orders": 10
+      },
+      {
+        "name": "2026-09-10",
+        "revenue": 1936.51,
+        "orders": 11
+      },
+      {
+        "name": "2026-09-11",
+        "revenue": 2451.95,
+        "orders": 11
+      },
+      {
+        "name": "2026-09-12",
+        "revenue": 1762.1,
+        "orders": 9
+      },
+      {
+        "name": "2026-09-13",
+        "revenue": 1902.6,
+        "orders": 12
+      },
+      {
+        "name": "2026-09-14",
+        "revenue": 838.22,
+        "orders": 7
+      },
+      {
+        "name": "2026-09-15",
+        "revenue": 1463.42,
+        "orders": 7
+      },
+      {
+        "name": "2026-09-16",
+        "revenue": 2539.7,
+        "orders": 14
+      },
+      {
+        "name": "2026-09-17",
+        "revenue": 2542.1,
+        "orders": 12
+      },
+      {
+        "name": "2026-09-18",
+        "revenue": 1275.07,
+        "orders": 9
+      },
+      {
+        "name": "2026-09-19",
+        "revenue": 2132.01,
+        "orders": 12
+      },
+      {
+        "name": "2026-09-20",
+        "revenue": 3536.89,
+        "orders": 17
+      },
+      {
+        "name": "2026-09-21",
+        "revenue": 2668.71,
+        "orders": 16
+      },
+      {
+        "name": "2026-09-22",
+        "revenue": 1910.55,
+        "orders": 9
+      },
+      {
+        "name": "2026-09-23",
+        "revenue": 1607.19,
+        "orders": 7
+      },
+      {
+        "name": "2026-09-24",
+        "revenue": 1624.06,
+        "orders": 10
+      },
+      {
+        "name": "2026-09-25",
+        "revenue": 1595.75,
+        "orders": 7
+      },
+      {
+        "name": "2026-09-26",
+        "revenue": 1817.39,
+        "orders": 9
+      },
+      {
+        "name": "2026-09-27",
+        "revenue": 836.85,
+        "orders": 8
+      },
+      {
+        "name": "2026-09-28",
+        "revenue": 1587.1,
+        "orders": 5
+      },
+      {
+        "name": "2026-09-29",
+        "revenue": 620.24,
+        "orders": 3
+      },
+      {
+        "name": "2026-09-30",
+        "revenue": 786.61,
+        "orders": 7
+      }
+    ],
+    "previous": {
+      "revenue": 38597.98,
+      "orders": 236,
+      "cogs": 20040.0,
+      "gross_profit": 18557.98,
+      "margin": 48.08,
+      "aov": 163.55,
+      "refund_rate": 4.84,
+      "refunded_orders": 12,
+      "cancelled_orders": 17,
+      "valid_rows": 265,
+      "categories": [
+        {
+          "name": "Electronics",
+          "revenue": 19229.12,
+          "orders": 71
+        },
+        {
+          "name": "Home & Living",
+          "revenue": 11770.72,
+          "orders": 76
+        },
+        {
+          "name": "Apparel",
+          "revenue": 5943.36,
+          "orders": 61
+        },
+        {
+          "name": "Accessories",
+          "revenue": 1654.78,
+          "orders": 28
+        }
+      ],
+      "channels": [
+        {
+          "name": "Online",
+          "revenue": 24187.56,
+          "orders": 143
+        },
+        {
+          "name": "Retail",
+          "revenue": 11327.31,
+          "orders": 73
+        },
+        {
+          "name": "Wholesale",
+          "revenue": 3083.11,
+          "orders": 20
+        }
+      ],
+      "daily": [
+        {
+          "name": "2026-08-01",
+          "revenue": 1254.92,
+          "orders": 8
+        },
+        {
+          "name": "2026-08-02",
+          "revenue": 1863.88,
+          "orders": 12
+        },
+        {
+          "name": "2026-08-03",
+          "revenue": 887.5,
+          "orders": 7
+        },
+        {
+          "name": "2026-08-04",
+          "revenue": 597.0,
+          "orders": 4
+        },
+        {
+          "name": "2026-08-05",
+          "revenue": 1113.31,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-06",
+          "revenue": 1741.53,
+          "orders": 14
+        },
+        {
+          "name": "2026-08-07",
+          "revenue": 809.05,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-08",
+          "revenue": 361.7,
+          "orders": 4
+        },
+        {
+          "name": "2026-08-09",
+          "revenue": 1259.07,
+          "orders": 7
+        },
+        {
+          "name": "2026-08-10",
+          "revenue": 1541.58,
+          "orders": 12
+        },
+        {
+          "name": "2026-08-11",
+          "revenue": 1051.99,
+          "orders": 8
+        },
+        {
+          "name": "2026-08-12",
+          "revenue": 1026.4,
+          "orders": 7
+        },
+        {
+          "name": "2026-08-13",
+          "revenue": 892.4,
+          "orders": 9
+        },
+        {
+          "name": "2026-08-14",
+          "revenue": 1170.46,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-15",
+          "revenue": 1213.97,
+          "orders": 9
+        },
+        {
+          "name": "2026-08-16",
+          "revenue": 1347.07,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-17",
+          "revenue": 598.97,
+          "orders": 3
+        },
+        {
+          "name": "2026-08-18",
+          "revenue": 1269.57,
+          "orders": 8
+        },
+        {
+          "name": "2026-08-19",
+          "revenue": 1726.02,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-20",
+          "revenue": 1840.29,
+          "orders": 10
+        },
+        {
+          "name": "2026-08-21",
+          "revenue": 2186.07,
+          "orders": 14
+        },
+        {
+          "name": "2026-08-22",
+          "revenue": 585.29,
+          "orders": 4
+        },
+        {
+          "name": "2026-08-23",
+          "revenue": 1379.05,
+          "orders": 8
+        },
+        {
+          "name": "2026-08-24",
+          "revenue": 1251.15,
+          "orders": 7
+        },
+        {
+          "name": "2026-08-25",
+          "revenue": 1789.05,
+          "orders": 11
+        },
+        {
+          "name": "2026-08-26",
+          "revenue": 1472.75,
+          "orders": 6
+        },
+        {
+          "name": "2026-08-27",
+          "revenue": 1483.34,
+          "orders": 5
+        },
+        {
+          "name": "2026-08-28",
+          "revenue": 549.64,
+          "orders": 5
+        },
+        {
+          "name": "2026-08-29",
+          "revenue": 427.5,
+          "orders": 2
+        },
+        {
+          "name": "2026-08-30",
+          "revenue": 2403.54,
+          "orders": 12
+        },
+        {
+          "name": "2026-08-31",
+          "revenue": 1503.92,
+          "orders": 10
+        }
+      ]
+    },
+    "deltas": {
+      "revenue": 40.77,
+      "orders": 22.46,
+      "aov": 14.96,
+      "margin": -0.75
+    }
+  },
+  "audit": {
+    "raw_rows": 832,
+    "accepted_rows": 805,
+    "rejected_rows": 27,
+    "normalized_rows": 58,
+    "acceptance_rate": 96.75,
+    "source_sha256": "58e8c0c41b32881a5c33c1611530d36718716f13bae17708ec462249ef3d5b71",
+    "reasons": {
+      "duplicate order_id (first valid row retained)": 9,
+      "day is out of range for month": 3,
+      "quantity must be an integer from 1 to 10000": 3,
+      "invalid numeric value": 3,
+      "invalid category": 3,
+      "discount_pct must be between 0 and 100": 3,
+      "invalid status": 3
+    },
+    "rejected": [
+      {
+        "line": 23,
+        "order_id": "PJ-07-0021",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 89,
+        "order_id": "PJ-07-0086",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 155,
+        "order_id": "PJ-07-0151",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 235,
+        "order_id": "BAD-7-0",
+        "reason": "day is out of range for month"
+      },
+      {
+        "line": 236,
+        "order_id": "BAD-7-1",
+        "reason": "quantity must be an integer from 1 to 10000"
+      },
+      {
+        "line": 237,
+        "order_id": "BAD-7-2",
+        "reason": "invalid numeric value"
+      },
+      {
+        "line": 238,
+        "order_id": "BAD-7-3",
+        "reason": "invalid category"
+      },
+      {
+        "line": 239,
+        "order_id": "BAD-7-4",
+        "reason": "discount_pct must be between 0 and 100"
+      },
+      {
+        "line": 240,
+        "order_id": "BAD-7-5",
+        "reason": "invalid status"
+      },
+      {
+        "line": 262,
+        "order_id": "PJ-08-0021",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 328,
+        "order_id": "PJ-08-0086",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 394,
+        "order_id": "PJ-08-0151",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 509,
+        "order_id": "BAD-8-0",
+        "reason": "day is out of range for month"
+      },
+      {
+        "line": 510,
+        "order_id": "BAD-8-1",
+        "reason": "quantity must be an integer from 1 to 10000"
+      },
+      {
+        "line": 511,
+        "order_id": "BAD-8-2",
+        "reason": "invalid numeric value"
+      },
+      {
+        "line": 512,
+        "order_id": "BAD-8-3",
+        "reason": "invalid category"
+      },
+      {
+        "line": 513,
+        "order_id": "BAD-8-4",
+        "reason": "discount_pct must be between 0 and 100"
+      },
+      {
+        "line": 514,
+        "order_id": "BAD-8-5",
+        "reason": "invalid status"
+      },
+      {
+        "line": 536,
+        "order_id": "PJ-09-0021",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 602,
+        "order_id": "PJ-09-0086",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 668,
+        "order_id": "PJ-09-0151",
+        "reason": "duplicate order_id (first valid row retained)"
+      },
+      {
+        "line": 828,
+        "order_id": "BAD-9-0",
+        "reason": "day is out of range for month"
+      },
+      {
+        "line": 829,
+        "order_id": "BAD-9-1",
+        "reason": "quantity must be an integer from 1 to 10000"
+      },
+      {
+        "line": 830,
+        "order_id": "BAD-9-2",
+        "reason": "invalid numeric value"
+      },
+      {
+        "line": 831,
+        "order_id": "BAD-9-3",
+        "reason": "invalid category"
+      },
+      {
+        "line": 832,
+        "order_id": "BAD-9-4",
+        "reason": "discount_pct must be between 0 and 100"
+      },
+      {
+        "line": 833,
+        "order_id": "BAD-9-5",
+        "reason": "invalid status"
+      }
+    ],
+    "changes": [
+      {
+        "line": 2,
+        "order_id": "PJ-07-0001",
+        "fields": [
+          "channel",
+          "unit_price",
+          "status"
+        ]
+      },
+      {
+        "line": 34,
+        "order_id": "PJ-07-0032",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 46,
+        "order_id": "PJ-07-0044",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 60,
+        "order_id": "PJ-07-0058",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 65,
+        "order_id": "PJ-07-0063",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 90,
+        "order_id": "PJ-07-0087",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 97,
+        "order_id": "PJ-07-0094",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 118,
+        "order_id": "PJ-07-0115",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 128,
+        "order_id": "PJ-07-0125",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 133,
+        "order_id": "PJ-07-0130",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 160,
+        "order_id": "PJ-07-0156",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 176,
+        "order_id": "PJ-07-0172",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 177,
+        "order_id": "PJ-07-0173",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 191,
+        "order_id": "PJ-07-0187",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 220,
+        "order_id": "PJ-07-0216",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 222,
+        "order_id": "PJ-07-0218",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 233,
+        "order_id": "PJ-07-0229",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 241,
+        "order_id": "PJ-08-0001",
+        "fields": [
+          "channel",
+          "unit_price",
+          "status"
+        ]
+      },
+      {
+        "line": 273,
+        "order_id": "PJ-08-0032",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 285,
+        "order_id": "PJ-08-0044",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 299,
+        "order_id": "PJ-08-0058",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 304,
+        "order_id": "PJ-08-0063",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 329,
+        "order_id": "PJ-08-0087",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 336,
+        "order_id": "PJ-08-0094",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 357,
+        "order_id": "PJ-08-0115",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 367,
+        "order_id": "PJ-08-0125",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 372,
+        "order_id": "PJ-08-0130",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 399,
+        "order_id": "PJ-08-0156",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 415,
+        "order_id": "PJ-08-0172",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 416,
+        "order_id": "PJ-08-0173",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 430,
+        "order_id": "PJ-08-0187",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 459,
+        "order_id": "PJ-08-0216",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 461,
+        "order_id": "PJ-08-0218",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 472,
+        "order_id": "PJ-08-0229",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 492,
+        "order_id": "PJ-08-0249",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 502,
+        "order_id": "PJ-08-0259",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 515,
+        "order_id": "PJ-09-0001",
+        "fields": [
+          "channel",
+          "unit_price",
+          "status"
+        ]
+      },
+      {
+        "line": 547,
+        "order_id": "PJ-09-0032",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 559,
+        "order_id": "PJ-09-0044",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 573,
+        "order_id": "PJ-09-0058",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 578,
+        "order_id": "PJ-09-0063",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 603,
+        "order_id": "PJ-09-0087",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 610,
+        "order_id": "PJ-09-0094",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 631,
+        "order_id": "PJ-09-0115",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 641,
+        "order_id": "PJ-09-0125",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 646,
+        "order_id": "PJ-09-0130",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 673,
+        "order_id": "PJ-09-0156",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 689,
+        "order_id": "PJ-09-0172",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 690,
+        "order_id": "PJ-09-0173",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 704,
+        "order_id": "PJ-09-0187",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 733,
+        "order_id": "PJ-09-0216",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 735,
+        "order_id": "PJ-09-0218",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 746,
+        "order_id": "PJ-09-0229",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 766,
+        "order_id": "PJ-09-0249",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 776,
+        "order_id": "PJ-09-0259",
+        "fields": [
+          "status"
+        ]
+      },
+      {
+        "line": 797,
+        "order_id": "PJ-09-0280",
+        "fields": [
+          "channel"
+        ]
+      },
+      {
+        "line": 803,
+        "order_id": "PJ-09-0286",
+        "fields": [
+          "unit_price"
+        ]
+      },
+      {
+        "line": 819,
+        "order_id": "PJ-09-0302",
+        "fields": [
+          "status"
+        ]
+      }
+    ]
+  },
+  "insights": [
+    "Revenue increased 40.8% versus the previous month.",
+    "Electronics contributed 56.8% of net revenue.",
+    "Online was the leading sales channel at 59.7% of revenue.",
+    "18 refunded orders produced a 5.9% refund rate. Review refund drivers before expanding promotions."
+  ],
+  "preview_rows": [
+    {
+      "order_id": "PJ-07-0001",
+      "order_date": "2026-07-01",
+      "category": "Apparel",
+      "region": "East",
+      "channel": "Online",
+      "quantity": "1",
+      "unit_price": "64.00",
+      "unit_cost": "24.00",
+      "discount_pct": "15",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0002",
+      "order_date": "2026-07-19",
+      "category": "Electronics",
+      "region": "West",
+      "channel": "Online",
+      "quantity": "1",
+      "unit_price": "179.00",
+      "unit_cost": "108.00",
+      "discount_pct": "10",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0003",
+      "order_date": "2026-07-23",
+      "category": "Electronics",
+      "region": "West",
+      "channel": "Online",
+      "quantity": "2",
+      "unit_price": "179.00",
+      "unit_cost": "108.00",
+      "discount_pct": "0",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0004",
+      "order_date": "2026-07-05",
+      "category": "Home & Living",
+      "region": "South",
+      "channel": "Wholesale",
+      "quantity": "1",
+      "unit_price": "89.00",
+      "unit_cost": "36.00",
+      "discount_pct": "5",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0005",
+      "order_date": "2026-07-20",
+      "category": "Apparel",
+      "region": "East",
+      "channel": "Retail",
+      "quantity": "2",
+      "unit_price": "64.00",
+      "unit_cost": "24.00",
+      "discount_pct": "5",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0006",
+      "order_date": "2026-07-21",
+      "category": "Home & Living",
+      "region": "East",
+      "channel": "Online",
+      "quantity": "2",
+      "unit_price": "89.00",
+      "unit_cost": "36.00",
+      "discount_pct": "15",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0007",
+      "order_date": "2026-07-03",
+      "category": "Home & Living",
+      "region": "South",
+      "channel": "Retail",
+      "quantity": "1",
+      "unit_price": "80.10",
+      "unit_cost": "36.00",
+      "discount_pct": "15",
+      "status": "completed"
+    },
+    {
+      "order_id": "PJ-07-0008",
+      "order_date": "2026-07-12",
+      "category": "Home & Living",
+      "region": "South",
+      "channel": "Retail",
+      "quantity": "2",
+      "unit_price": "89.00",
+      "unit_cost": "36.00",
+      "discount_pct": "10",
+      "status": "completed"
+    }
+  ],
+  "email_status": "prepared",
+  "source": "synthetic_orders.csv"
+}

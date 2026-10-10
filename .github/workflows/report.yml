@@ -1,0 +1,55 @@
+name: Automated business report
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+    inputs:
+      month:
+        description: Synthetic reporting month
+        type: choice
+        options: ['2026-09', '2026-08', '2026-07']
+        default: '2026-09'
+      send_email:
+        description: Deliver using configured repository SMTP secrets
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: automated-business-report
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate email preview and executive report
+        env:
+          REPORT_MONTH: ${{ inputs.month || '2026-09' }}
+        run: python -m reporting run --month "$REPORT_MONTH" --output output/preview
+      - name: Save public synthetic artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: synthetic-business-report
+          path: output/preview
+          retention-days: 14
+      - name: Deliver report on explicit request
+        if: github.event_name == 'workflow_dispatch' && inputs.send_email
+        env:
+          REPORT_MONTH: ${{ inputs.month }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT || '587' }}
+          SMTP_SECURITY: ${{ vars.SMTP_SECURITY || 'starttls' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_EMAIL_FROM: ${{ secrets.REPORT_EMAIL_FROM }}
+          REPORT_EMAIL_TO: ${{ secrets.REPORT_EMAIL_TO }}
+        run: python -m reporting run --month "$REPORT_MONTH" --output output/private --send
+      # Live email and delivery state are intentionally excluded from public artifacts.
+      # A new manual workflow run is an explicit new delivery request. Local receipts
+      # prevent repeats within one output directory; they do not persist across runners.

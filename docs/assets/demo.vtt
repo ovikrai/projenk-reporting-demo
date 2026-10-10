@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Projenk turns synthetic CSV orders into an automated business report.
+
+00:00:05.000 --> 00:00:10.000
+Explore monthly revenue, channels, category performance and business observations.
+
+00:00:10.000 --> 00:00:15.000
+A real Python pipeline reads, cleans, validates and calculates the metrics.
+
+00:00:15.000 --> 00:00:20.000
+832 source rows: 805 accepted, 58 normalized and 27 rejected with reasons.
+
+00:00:20.000 --> 00:00:25.000
+Generate a standalone report and an email with the report attached. Preview only.
+
+00:00:25.000 --> 00:00:30.000
+September: $54,335.43 net revenue and 289 completed orders. All data is synthetic.
+
+00:00:30.000 --> 00:00:35.000
+Inspect the source and setup guide on GitHub. The portfolio is hosted on GitHub Pages.

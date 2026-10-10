@@ -1,0 +1,13 @@
+{
+  "periods": [
+    "2026-09",
+    "2026-08",
+    "2026-07"
+  ],
+  "default_period": "2026-09",
+  "dataset": "synthetic_orders.csv",
+  "seed": 42,
+  "currency": "USD",
+  "synthetic": true,
+  "repository": "https://github.com/ovikrai/projenk-reporting-demo"
+}
