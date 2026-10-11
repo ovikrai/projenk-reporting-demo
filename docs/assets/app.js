@@ -26,7 +26,7 @@ const $ = id => document.getElementById(id);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const money = (number, digits=2) => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:digits,minimumFractionDigits:digits}).format(number);
 const monthLabel = period => new Intl.DateTimeFormat('en-US',{month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(`${period}-01T00:00:00Z`));
-const colors = ['#9473d9','#c2ace9','#e1d5f1','#ba9aca'];
+const colors = ['#111111','#777777','#b6b6b6','#d9d9d9'];
 let currentRun, localPipeline=false, auditExpanded=false, loading=false, loadVersion=0;
 const viewMeta = {
   overview:['Overview','YOUR BUSINESS, AT A GLANCE','Good data. Clear decisions.','The numbers that matter, without the spreadsheet shuffle.'],
@@ -63,21 +63,21 @@ function chart(m,period){
   const max=Math.max(...series,...prior,1);const top=Math.ceil(max/1000)*1000;
   const x=i=>L+i/(days-1)*(W-L-R);const y=v=>T+(1-v/top)*(H-T-B);
   const line=values=>values.map((v,i)=>`${i===0?'M':'L'}${x(i).toFixed(2)},${y(v).toFixed(2)}`).join(' ');
-  const grid=Array.from({length:5},(_,i)=>{const value=top*i/4,yy=y(value);return `<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="#f0edf5" stroke-dasharray="3 4"/><text x="${L-10}" y="${yy+3}" text-anchor="end" fill="#a79ab8" font-size="9">${value?money(value/1000,1)+'k':'$0'}</text>`;}).join('');
-  const labels=[0,7,14,21,days-1].map(i=>`<text x="${x(i)}" y="${H-4}" text-anchor="middle" fill="#a99bbb" font-size="9">${String(i+1).padStart(2,'0')} ${new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'UTC'}).format(new Date(period+'-01T00:00:00Z'))}</text>`).join('');
+  const grid=Array.from({length:5},(_,i)=>{const value=top*i/4,yy=y(value);return `<line x1="${L}" y1="${yy}" x2="${W-R}" y2="${yy}" stroke="#e5e5e5" stroke-dasharray="3 4"/><text x="${L-10}" y="${yy+3}" text-anchor="end" fill="#666666" font-size="9">${value?money(value/1000,1)+'k':'$0'}</text>`;}).join('');
+  const labels=[0,7,14,21,days-1].map(i=>`<text x="${x(i)}" y="${H-4}" text-anchor="middle" fill="#666666" font-size="9">${String(i+1).padStart(2,'0')} ${new Intl.DateTimeFormat('en-US',{month:'short',timeZone:'UTC'}).format(new Date(period+'-01T00:00:00Z'))}</text>`).join('');
   const dots=series.map((v,i)=>`<circle cx="${x(i)}" cy="${y(v)}" r="4" fill="transparent"><title>${period}-${String(i+1).padStart(2,'0')}: ${money(v)}</title></circle>`).join('');
-  $('revenue-chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily net revenue for ${monthLabel(period)}"><title>Daily revenue, USD. Current month solid purple; previous month dashed.</title><defs><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b59ae7" stop-opacity=".28"/><stop offset="100%" stop-color="#b59ae7" stop-opacity=".01"/></linearGradient></defs>${grid}<path d="${line(series)} L${x(days-1)},${y(0)} L${x(0)},${y(0)}Z" fill="url(#area)"/>${prior.length?`<path d="${line(prior)}" fill="none" stroke="#d5cede" stroke-width="1.4" stroke-dasharray="4 5"/>`:''}<path d="${line(series)}" fill="none" stroke="#a180df" stroke-width="2.2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
+  $('revenue-chart').innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily net revenue for ${monthLabel(period)}"><title>Daily revenue, USD. Current month solid black; previous month dashed.</title>${grid}<path d="${line(series)} L${x(days-1)},${y(0)} L${x(0)},${y(0)}Z" fill="#f2f2f2"/>${prior.length?`<path d="${line(prior)}" fill="none" stroke="#aaaaaa" stroke-width="1.4" stroke-dasharray="4 5"/>`:''}<path d="${line(series)}" fill="none" stroke="#111111" stroke-width="2.2" stroke-linejoin="round"/>${dots}${labels}</svg>`;
   $('chart-period').textContent=`${monthLabel(period)} · ${m.previous?'comparison aligned by day':'no prior month available'}`;
   document.querySelector('.chart-key').hidden=!m.previous;
 }
 function channels(m){
   const radius=61,circumference=2*Math.PI*radius;let offset=0;
   const arcs=m.channels.map((item,i)=>{const share=m.revenue?item.revenue/m.revenue:0,length=share*circumference;const result=`<circle cx="77" cy="77" r="${radius}" fill="none" stroke="${colors[i]}" stroke-width="17" stroke-dasharray="${Math.max(0,length-3)} ${circumference}" stroke-dashoffset="${-offset}"/>`;offset+=length;return result;}).join('');
-  $('channel-chart').innerHTML=`<div class="donut-wrap"><svg viewBox="0 0 154 154" role="img" aria-label="Revenue by sales channel"><circle cx="77" cy="77" r="${radius}" fill="none" stroke="#f6f2fa" stroke-width="17"/>${arcs}</svg><div class="donut-label"><strong>${money(m.revenue/1000,1)}k</strong><small>Total revenue</small></div></div><div class="channel-legend">${m.channels.map((item,i)=>`<div><i style="background:${colors[i]}"></i><span>${escapeHTML(item.name)}</span><strong>${money(item.revenue,0)}</strong><small>${m.revenue?(item.revenue/m.revenue*100).toFixed(0):0}%</small></div>`).join('')}</div>`;
+  $('channel-chart').innerHTML=`<div class="donut-wrap"><svg viewBox="0 0 154 154" role="img" aria-label="Revenue by sales channel"><circle cx="77" cy="77" r="${radius}" fill="none" stroke="#eeeeee" stroke-width="17"/>${arcs}</svg><div class="donut-label"><strong>${money(m.revenue/1000,1)}k</strong><small>Total revenue</small></div></div><div class="channel-legend">${m.channels.map((item,i)=>`<div><i style="background:${colors[i]}"></i><span>${escapeHTML(item.name)}</span><strong>${money(item.revenue,0)}</strong><small>${m.revenue?(item.revenue/m.revenue*100).toFixed(0):0}%</small></div>`).join('')}</div>`;
 }
 function auditRows(){
   const rows=auditExpanded?currentRun.audit.rejected:currentRun.audit.rejected.slice(0,6);
-  $('audit-rows').innerHTML=rows.map(row=>`<tr><td>${row.line}</td><td>${escapeHTML(row.order_id)}</td><td>${escapeHTML(row.reason)}</td><td><span class="tag amber">Excluded</span></td></tr>`).join('');
+  $('audit-rows').innerHTML=rows.map(row=>`<tr><td>${row.line}</td><td>${escapeHTML(row.order_id)}</td><td>${escapeHTML(row.reason)}</td><td><span class="tag warning">Excluded</span></td></tr>`).join('');
   $('expand-audit').textContent=auditExpanded?'Show fewer rows ↑':`Show all ${currentRun.audit.rejected_rows} rejected rows ↓`;
 }
 function render(run){
@@ -92,7 +92,7 @@ function render(run){
   const stages=[['Read the source CSV',`${a.raw_rows} rows loaded with a strict, documented schema.`,'data/synthetic_orders.csv','Inspect source CSV'],['Clean & validate',`${a.accepted_rows} accepted · ${a.normalized_rows} normalized · ${a.rejected_rows} rejected.`,path+'audit.json','Inspect the audit'],['Calculate business metrics',`${m.orders} completed orders · ${money(m.revenue)} net revenue.`,path+'metrics.json','Inspect metrics JSON'],['Generate the executive report','Monthly summary, category performance and documented assumptions.',path+'report.html','Open the report'],['Prepare the email','MIME message built with the HTML report attached. Delivery is separate.',path+'report.eml','Download the email']];
   $('stages').innerHTML=stages.map(([title,body,url,label],i)=>`<li id="stage-${i}"><span class="stage-number">0${i+1}</span><div><h3>${title}</h3><p>${body}</p><a href="${url}" ${i===4?'download':'target="_blank" rel="noopener"'}>${label} ↗</a></div><span class="stage-check"><span data-icon="check"></span>${i===4?'Prepared':'Complete'}</span></li>`).join('');
   $('source-hash').textContent=a.source_sha256; auditRows();
-  $('clean-rows').innerHTML=run.preview_rows.map(row=>`<tr><td>${escapeHTML(row.order_id)}</td><td>${escapeHTML(row.order_date)}</td><td>${escapeHTML(row.category)}</td><td>${escapeHTML(row.channel)}</td><td>${row.quantity}</td><td>${money(Number(row.unit_price))}</td><td><span class="tag ${row.status==='completed'?'green':'amber'}">${escapeHTML(row.status)}</span></td></tr>`).join('');
+  $('clean-rows').innerHTML=run.preview_rows.map(row=>`<tr><td>${escapeHTML(row.order_id)}</td><td>${escapeHTML(row.order_date)}</td><td>${escapeHTML(row.category)}</td><td>${escapeHTML(row.channel)}</td><td>${row.quantity}</td><td>${money(Number(row.unit_price))}</td><td><span class="tag ${row.status==='completed'?'positive':'warning'}">${escapeHTML(row.status)}</span></td></tr>`).join('');
   for(const [id,file] of [['download-rejected','rejected.csv'],['download-cleaned','cleaned.csv'],['open-report','report.html'],['download-report','report.html'],['download-email','report.eml'],['download-metrics','metrics.json']]) $(id).href=path+file;
   $('report-month').textContent=monthLabel(run.month);
   $('email-subject').textContent=`[Synthetic demo] Projenk business report · ${run.month}`;

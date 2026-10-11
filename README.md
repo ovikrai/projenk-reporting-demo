@@ -16,6 +16,7 @@ A complete, reproducible portfolio demo that turns imperfect synthetic CSV order
 - Generate a self-contained, printable HTML executive report and a MIME email with that report attached.
 - Deliver through TLS-protected SMTP only when explicitly requested.
 - Automate report generation in GitHub Actions and publish the portfolio to GitHub Pages.
+- Explore a minimal black-and-white interface with flat Material-style controls and grayscale charts.
 
 **All business data and observations are synthetic.** There are no real customers or transactions. The project replaces the former todo application; no old database or OAuth files are included in this GitHub repository.
 

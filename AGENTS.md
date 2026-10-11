@@ -31,6 +31,7 @@ Projenk is an automated business reporting portfolio, rebuilt from the former to
 - Do not remove a delivery lock after an uncertain SMTP failure without checking provider delivery state.
 - Treat source/audit counts as all-month counts; metrics as selected-month counts.
 - Keep public URLs relative so project Pages paths work.
+- Keep the UI monochrome with flat Material-style components, restrained rounding, no shadows or gradients, and accessible text contrast.
 - Regenerate artifacts after changes to Python logic, seed data or report markup.
 - Run meaningful pipeline tests for calculation, validation or delivery changes.
 - Preserve screenshot evidence without altering its content. Refresh screenshots and tour if the UI changes materially.
